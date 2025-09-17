@@ -7,11 +7,36 @@ Aplicación de escritorio Windows Forms (.NET 8) para:
 - Exportar un JSON combinado con TypeLibs y CLSIDs.
 - Visualizar, buscar, editar y gestionar los JSON generados desde una UI dedicada.
 
+## Capturas de pantalla
+
+Vista principal:
+
+![Ventana Principal](TypeLibExporter_NET8/img/principal.png)
+
+Editor/visor JSON con buscador:
+
+![Editor JSON](TypeLibExporter_NET8/img/editor.png)
+
 ## Requisitos
 
 - Windows 7 SP1 o superior (propiedad `SupportedOSPlatformVersion` = 6.1).
 - .NET 8 SDK.
 - Visual Studio 2022 o `dotnet CLI`.
+
+## Compilar y publicar (VS 2022 y CLI)
+
+### Visual Studio 2022
+
+1. Abre la solución `TypeLibExporter_NET8.sln`.
+2. Establece configuración `Release` para distribuir.
+3. Compilar (Build → Build Solution):
+   - EXE dependiente del framework: `TypeLibExporter_NET8/bin/Release/net8.0-windows/TypeLibExporter_NET8.exe`.
+4. Publicar (clic derecho proyecto `TypeLibExporter_NET8` → Publish…):
+   - Target: `Folder`.
+   - Runtime: `win-x64`.
+   - Self-contained: `true` (no requiere .NET en destino; tamaño mayor).
+   - Single file: `true` (opcional, un único `.exe`).
+   - Ubicación de salida típica: `TypeLibExporter_NET8/bin/Release/net8.0-windows/win-x64/publish/`.
 
 ## Estructura del proyecto
 
@@ -73,16 +98,6 @@ dotnet run --project TypeLibExporter_NET8/TypeLibExporter_NET8.csproj
 - No comitear artefactos de compilación (`bin/`, `obj/`, `.vs/`, archivos `.user`).
 - Hacer commits frecuentes con mensajes claros (en español).
 - No subir credenciales, datos sensibles ni exportaciones de usuario sin consentimiento.
-
-## Capturas de pantalla
-
-Vista principal:
-
-![Ventana Principal](TypeLibExporter_NET8/img/principal.png)
-
-Editor/visor JSON con buscador:
-
-![Editor JSON](TypeLibExporter_NET8/img/editor.png)
 
 ## Licencia
 
