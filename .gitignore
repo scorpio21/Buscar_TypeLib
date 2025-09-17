@@ -1,0 +1,56 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Tt]est[Rr]esults/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary
+#!**/packages/repositories.config
+
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Rider / VS Code
+.idea/
+*.iml
+.vscode/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# DotCover
+*.dotCover
+
+# Others
+*.tmp
+*.cache
+*.sqlite
+*.db
+
+# Publish
+**/publish/
+
+# JetBrains Rider
+*.sln.iml

@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableWinRTSupport>true</EnableWinRTSupport>
+    
+    <!-- ✅ SUPRIMIR ADVERTENCIAS ESPECÍFICAS -->
+    <NoWarn>CS8600;CS8601;CS8602;CS8604;CS8618;CS8625;CS8629;CA1416;CA1417</NoWarn>
+    
+    <!-- ✅ CONFIGURACIÓN DE NULLABLE -->
+    <Nullable>enable</Nullable>
+    
+    <!-- ✅ CONFIGURACIÓN DE ADVERTENCIAS -->
+    <WarningsAsErrors />
+    <WarningsNotAsErrors>CS8600;CS8601;CS8602;CS8604;CS8618;CS8625;CS8629;CA1416;CA1417</WarningsNotAsErrors>
+    
+    <!-- ✅ PLATAFORMA ESPECÍFICA -->
+    <SupportedOSPlatformVersion>6.1</SupportedOSPlatformVersion>
+    <ApplicationIcon>img/Main.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <!-- Copiar iconos e imágenes de la carpeta img/ a la salida -->
+  <ItemGroup>
+    <Content Include="img\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>
