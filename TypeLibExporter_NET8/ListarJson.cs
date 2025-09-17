@@ -1,6 +1,7 @@
 using System.Text.Json;
 using System.Linq;
 using TypeLibExporter_NET8.Servicios;
+using TypeLibExporter_NET8.Clases;
 
 namespace TypeLibExporter_NET8
 {
@@ -36,7 +37,7 @@ namespace TypeLibExporter_NET8
         {
             try
             {
-                var resultado = JsonInspector.Inspeccionar(jsonContent, fileName);
+                var resultado = ClaseInicial.Servicios.Inspect(jsonContent, fileName);
                 if (resultado.EsCombinadoAmbos)
                 {
                     // Guardar datos y diferir apertura al evento Shown (handle ya creado)
@@ -79,7 +80,7 @@ namespace TypeLibExporter_NET8
         {
             searchTimer.Stop();
             string searchTerm = txtSearch.Text ?? string.Empty;
-            itemsList = BusquedaJson.Filtrar(originalItemsList, searchTerm, isClsIdData);
+            itemsList = ClaseInicial.Servicios.Filtrar(originalItemsList, searchTerm, isClsIdData);
             RefreshItemsList();
             UpdateSearchResultsInfo();
         }

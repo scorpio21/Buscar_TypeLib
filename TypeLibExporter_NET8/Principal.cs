@@ -5,6 +5,7 @@ using System.Security.Cryptography;
 using System.Drawing;
 using System.IO;
 using TypeLibExporter_NET8.Servicios;
+using TypeLibExporter_NET8.Clases;
 
 namespace TypeLibExporter_NET8
 {
@@ -16,27 +17,27 @@ namespace TypeLibExporter_NET8
         {
             InitializeComponent();
             
+            // Inicialización global
+            ClaseInicial.Inicializar();
             // Archivo para guardar configuraciones
-            string appDataPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "TypeLibExporter");
-            Directory.CreateDirectory(appDataPath);
-            settingsFile = Path.Combine(appDataPath, "settings.json");
+            settingsFile = Path.Combine(ClaseInicial.Rutas.AppData, "settings.json");
             
             // Iconos para menús (usa img/*.ico)
             try
             {
                 // Tamaño de íconos del menú (ajusta si usas PNG de 24px)
                 menuStrip.ImageScalingSize = new Size(16, 16);
-                var cerrarIcoPath = Path.Combine(AppContext.BaseDirectory, "img", "cerrar.ico");
-                if (File.Exists(cerrarIcoPath))
+                var cerrarIco = ClaseInicial.CargarIcono("cerrar.ico");
+                if (cerrarIco != null)
                 {
-                    cerrarMenuItem.Image = new Icon(cerrarIcoPath).ToBitmap();
+                    cerrarMenuItem.Image = cerrarIco.ToBitmap();
                     cerrarMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
                 }
 
-                var abrirIcoPath = Path.Combine(AppContext.BaseDirectory, "img", "Abrir.ico");
-                if (File.Exists(abrirIcoPath))
+                var abrirIco = ClaseInicial.CargarIcono("Abrir.ico");
+                if (abrirIco != null)
                 {
-                    cargarJsonMenuItem.Image = new Icon(abrirIcoPath).ToBitmap();
+                    cargarJsonMenuItem.Image = abrirIco.ToBitmap();
                     cargarJsonMenuItem.DisplayStyle = ToolStripItemDisplayStyle.ImageAndText;
                 }
             }
@@ -509,37 +510,4 @@ namespace TypeLibExporter_NET8
         }
     }
 
-    // Clases de datos
-    public class AppSettings
-    {
-        public string LastSaveLocation { get; set; } = "";
-    }
-
-    public class LibraryInfo
-    {
-        public string filename { get; set; } = "";
-        public string type_lib { get; set; } = "";
-        public string version { get; set; } = "";
-        public string checksum { get; set; } = "";
-        public long filesize { get; set; } = 0;
-    }
-
-    // ✅ NUEVA CLASE SIMPLIFICADA PARA CLSIDS
-    public class SimpleClsIdInfo
-    {
-        public string filename { get; set; } = "";
-        public string clsid { get; set; } = "";
-        public string version { get; set; } = "";
-        public string checksum { get; set; } = "";
-        public long filesize { get; set; } = 0;
-    }
-
-    // ✅ CLASE ACTUALIZADA PARA USAR SimpleClsIdInfo
-    public class ComponentInfo
-    {
-        public List<LibraryInfo> typelibs { get; set; } = new();
-        public List<SimpleClsIdInfo> clsids { get; set; } = new(); // ✅ CAMBIADO
-        public DateTime exported_at { get; set; } = DateTime.Now;
-        public string exported_by { get; set; } = "TypeLib Exporter - .NET 8";
-    }
 }
