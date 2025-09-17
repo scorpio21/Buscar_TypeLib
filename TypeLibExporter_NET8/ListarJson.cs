@@ -15,6 +15,8 @@ namespace TypeLibExporter_NET8
         private bool openCombinedPending = false;
         private List<LibraryInfo> pendingTypeLibs = new();
         private List<SimpleClsIdInfo> pendingClsids = new();
+        // Debounce de búsqueda
+        private readonly System.Windows.Forms.Timer searchTimer = new System.Windows.Forms.Timer();
 
         public ListarJson(string jsonContent, string fileName)
         {
@@ -23,6 +25,9 @@ namespace TypeLibExporter_NET8
             InitializeComponent();
             // Diferir operaciones que abren/cerran formularios a Shown
             this.Shown += ListarJson_Shown;
+            // Configurar debounce de búsqueda
+            searchTimer.Interval = 250; // ms
+            searchTimer.Tick += OnSearchTimerTick;
             LoadJsonContent();
         }
 
@@ -65,25 +70,21 @@ namespace TypeLibExporter_NET8
         // ✅ MÉTODO DE BÚSQUEDA ADAPTADO PARA AMBOS TIPOS
         private void TxtSearch_TextChanged(object sender, EventArgs e)
         {
-            if (sender is not TextBox textBox) return;
-            
-            string searchTerm = textBox.Text ?? string.Empty;
-            itemsList = BusquedaJson.Filtrar(originalItemsList, searchTerm, isClsIdData);
+            // Reiniciar debounce
+            searchTimer.Stop();
+            searchTimer.Start();
+        }
 
+        private void OnSearchTimerTick(object? sender, EventArgs e)
+        {
+            searchTimer.Stop();
+            string searchTerm = txtSearch.Text ?? string.Empty;
+            itemsList = BusquedaJson.Filtrar(originalItemsList, searchTerm, isClsIdData);
             RefreshItemsList();
             UpdateSearchResultsInfo();
         }
 
-        private void UpdateSearchResultsInfo()
-        {
-            var info = BusquedaJson.ObtenerInfoResultados(
-                txtSearch.Text?.Trim() ?? string.Empty,
-                itemsList.Count,
-                originalItemsList.Count,
-                isClsIdData);
-            lblSearchResults.Text = info.Texto;
-            lblSearchResults.ForeColor = info.Color;
-        }
+        
 
         private void BtnClearSearch_Click(object sender, EventArgs e)
         {
@@ -91,51 +92,7 @@ namespace TypeLibExporter_NET8
             txtSearch.Focus();
         }
 
-        // ✅ MÉTODO ADAPTADO PARA AMBOS TIPOS
-        private void RefreshItemsList()
-        {
-            try
-            {
-                lstLibraries.Items.Clear();
-                
-                foreach (var item in itemsList)
-                {
-                    string displayText = string.Empty;
-                    
-                    if (isClsIdData && item is SimpleClsIdInfo clsid)
-                    {
-                        displayText = $"{clsid.filename ?? "N/A"} - v{clsid.version ?? "N/A"} ({ArchivoUtil.FormatearTamanio(clsid.filesize)}) - {clsid.clsid ?? "N/A"}";
-                    }
-                    else if (!isClsIdData && item is LibraryInfo lib)
-                    {
-                        displayText = $"{lib.filename ?? "N/A"} - v{lib.version ?? "N/A"} ({ArchivoUtil.FormatearTamanio(lib.filesize)})";
-                    }
-                    
-                    lstLibraries.Items.Add(displayText);
-                }
-
-                // ✅ SERIALIZAR SEGÚN EL TIPO
-                object dataToSerialize = isClsIdData 
-                    ? itemsList.Cast<SimpleClsIdInfo>().ToList() 
-                    : itemsList.Cast<LibraryInfo>().ToList();
-
-                var formattedJson = JsonSerializer.Serialize(dataToSerialize, new JsonSerializerOptions 
-                { 
-                    WriteIndented = true,
-                    Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
-                });
-                
-                txtJsonDisplay.Text = formattedJson;
-                
-                string itemType = isClsIdData ? "CLSIDs" : "TypeLibs";
-                lblInfo.Text = $"📄 Archivo: {fileName} | 📊 {itemType}: {originalItemsList.Count} | 💾 Tamaño: {ArchivoUtil.FormatearTamanio(formattedJson.Length)}";
-                UpdateSearchResultsInfo();
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Error al actualizar la visualización:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-        }
+        
 
         private void LstLibraries_DoubleClick(object sender, EventArgs e)
         {
@@ -441,11 +398,7 @@ namespace TypeLibExporter_NET8
                         ? originalItemsList.Cast<SimpleClsIdInfo>().ToList() 
                         : originalItemsList.Cast<LibraryInfo>().ToList();
 
-                    var jsonToSave = JsonSerializer.Serialize(dataToSave, new JsonSerializerOptions 
-                    { 
-                        WriteIndented = true,
-                        Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
-                    });
+                    var jsonToSave = JsonSerializerHelper.SerializeIndented(dataToSave);
                     
                     File.WriteAllText(saveFileDialog.FileName, jsonToSave);
                     
