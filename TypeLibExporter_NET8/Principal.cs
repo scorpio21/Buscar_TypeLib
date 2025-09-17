@@ -44,6 +44,20 @@ namespace TypeLibExporter_NET8
             catch { /* Ignorar si no está disponible el ícono */ }
 
             LoadSavedLocation();
+
+            // Cursor personalizado para botones principales
+            try
+            {
+                var custom = ClaseInicial.CargarCursor("puntero.cur");
+                var useCursor = (Cursor?)custom ?? Cursors.Hand;
+                // Botones comunes del formulario principal
+                try { btnSelectLocation.Cursor = useCursor; } catch { }
+                try { btnExportTypeLibs.Cursor = useCursor; } catch { }
+                try { btnExportVB6.Cursor = useCursor; } catch { }
+                try { btnExportClsIds.Cursor = useCursor; } catch { }
+                try { btnExportCombined.Cursor = useCursor; } catch { }
+            }
+            catch { }
         }
 
         #region File Extension Filtering

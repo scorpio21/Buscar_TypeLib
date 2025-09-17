@@ -1,5 +1,6 @@
 using System.Text.Json;
 using System.Drawing;
+using TypeLibExporter_NET8.Clases;
 
 namespace TypeLibExporter_NET8
 {
@@ -56,6 +57,12 @@ namespace TypeLibExporter_NET8
             };
             btnClose.FlatAppearance.BorderSize = 0;
             btnClose.Click += (s, e) => this.Close();
+            try
+            {
+                var custom = ClaseInicial.CargarCursor("puntero.cur");
+                btnClose.Cursor = (Cursor?)custom ?? Cursors.Hand;
+            }
+            catch { }
             bottomPanel.Controls.Add(btnClose);
 
             // Reposicionar en función del tamaño del panel (anclaje a la derecha)

@@ -131,6 +131,20 @@ namespace TypeLibExporter_NET8.Clases
         }
 
         /// <summary>
+        /// Carga un cursor (.cur) desde la carpeta img/. Devuelve null si no existe o no es válido.
+        /// </summary>
+        public static Cursor? CargarCursor(string fileName)
+        {
+            try
+            {
+                var path = Path.Combine(Rutas.Img, fileName);
+                if (File.Exists(path)) return new Cursor(path);
+            }
+            catch { }
+            return null;
+        }
+
+        /// <summary>
         /// Resuelve una ruta dentro de la carpeta base del ejecutable de forma segura.
         /// </summary>
         public static string EnBase(params string[] partes)
