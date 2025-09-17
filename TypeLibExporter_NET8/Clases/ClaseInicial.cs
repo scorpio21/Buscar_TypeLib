@@ -13,6 +13,20 @@ namespace TypeLibExporter_NET8.Clases
     /// </summary>
     public static class ClaseInicial
     {
+        // Textos de UI centralizados (esqueleto inicial)
+        public static class Textos
+        {
+            public const string SeleccionRequeridaEditar = "⚠️ Selecciona un elemento de la lista para editar.";
+            public const string SeleccionRequeridaEliminar = "⚠️ Selecciona un elemento de la lista para eliminar.";
+            public const string GuardarJsonTitulo = "Guardar JSON como...";
+            public const string FiltroArchivoJson = "Archivos JSON (*.json)|*.json|Todos los archivos (*.*)|*.*";
+            public const string CopiadoOk = "📋 JSON copiado al portapapeles exitosamente!";
+            public const string CopiadoError = "❌ Error al copiar al portapapeles:";
+            public const string ErrorGuardarArchivo = "❌ Error al guardar archivo:";
+            public const string JsonInvalidoTitulo = "Archivo JSON Inválido";
+            public const string JsonInvalidoMensaje = "❌ El archivo seleccionado no contiene JSON válido.\n\nPor favor, selecciona un archivo JSON válido.";
+            public const string SeleccionarJsonTitulo = "Seleccionar archivo JSON para visualizar";
+        }
         // Configuración global
         public static class Config
         {

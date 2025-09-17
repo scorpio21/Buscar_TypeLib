@@ -111,8 +111,8 @@ namespace TypeLibExporter_NET8
             {
                 using var openFileDialog = new OpenFileDialog
                 {
-                    Title = "Seleccionar archivo JSON para visualizar",
-                    Filter = "Archivos JSON (*.json)|*.json|Todos los archivos (*.*)|*.*",
+                    Title = ClaseInicial.Textos.SeleccionarJsonTitulo,
+                    Filter = ClaseInicial.Textos.FiltroArchivoJson,
                     FilterIndex = 1,
                     InitialDirectory = txtLocation.Text
                 };
@@ -132,8 +132,8 @@ namespace TypeLibExporter_NET8
                     catch (JsonException)
                     {
                         MessageBox.Show(
-                            "❌ El archivo seleccionado no contiene JSON válido.\n\nPor favor, selecciona un archivo JSON válido.",
-                            "Archivo JSON Inválido",
+                            ClaseInicial.Textos.JsonInvalidoMensaje,
+                            ClaseInicial.Textos.JsonInvalidoTitulo,
                             MessageBoxButtons.OK,
                             MessageBoxIcon.Warning
                         );

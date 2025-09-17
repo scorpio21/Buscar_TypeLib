@@ -27,12 +27,37 @@ namespace TypeLibExporter_NET8
                 Dock = DockStyle.Fill,
             };
 
-            var tabTypelibs = new TabPage("TypeLibs");
-            var tabClsids = new TabPage("CLSIDs");
+            var tabTypelibs = new TabPage($"TypeLibs ({typeLibs.Count})");
+            var tabClsids = new TabPage($"CLSIDs ({clsids.Count})");
 
             tabs.TabPages.Add(tabTypelibs);
             tabs.TabPages.Add(tabClsids);
 
+            // Panel inferior con botón Cerrar
+            var bottomPanel = new Panel
+            {
+                Dock = DockStyle.Bottom,
+                Height = 60,
+                BackColor = Color.FromArgb(249, 250, 251)
+            };
+
+            var btnClose = new Button
+            {
+                Text = "✖ Cerrar",
+                Anchor = AnchorStyles.Right | AnchorStyles.Top,
+                Width = 120,
+                Height = 36,
+                BackColor = Color.FromArgb(239, 68, 68),
+                ForeColor = Color.White,
+                FlatStyle = FlatStyle.Flat,
+                Font = new Font("Segoe UI", 9F, FontStyle.Bold),
+                Location = new Point(this.ClientSize.Width - 140, 12)
+            };
+            btnClose.FlatAppearance.BorderSize = 0;
+            btnClose.Click += (s, e) => this.Close();
+            bottomPanel.Controls.Add(btnClose);
+
+            Controls.Add(bottomPanel);
             Controls.Add(tabs);
 
             // Crear dos formularios ListarJson embebidos (uno por pestaña)

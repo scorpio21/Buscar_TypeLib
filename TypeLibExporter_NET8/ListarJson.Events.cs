@@ -37,7 +37,7 @@ namespace TypeLibExporter_NET8
         {
             if (lstLibraries.SelectedIndex == -1)
             {
-                MessageBox.Show("⚠️ Selecciona un elemento de la lista para editar.", "Selección Requerida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(ClaseInicial.Textos.SeleccionRequeridaEditar, "Selección Requerida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
             EditSelectedItem();
@@ -47,7 +47,7 @@ namespace TypeLibExporter_NET8
         {
             if (lstLibraries.SelectedIndex == -1)
             {
-                MessageBox.Show("⚠️ Selecciona un elemento de la lista para eliminar.", "Selección Requerida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show(ClaseInicial.Textos.SeleccionRequeridaEliminar, "Selección Requerida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -140,11 +140,11 @@ namespace TypeLibExporter_NET8
             try
             {
                 Clipboard.SetText(txtJsonDisplay.Text);
-                MessageBox.Show("📋 JSON copiado al portapapeles exitosamente!", "Copiado", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show(ClaseInicial.Textos.CopiadoOk, "Copiado", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"❌ Error al copiar al portapapeles:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{ClaseInicial.Textos.CopiadoError}\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -154,8 +154,8 @@ namespace TypeLibExporter_NET8
             {
                 using var saveFileDialog = new SaveFileDialog
                 {
-                    Title = "Guardar JSON como...",
-                    Filter = "Archivos JSON (*.json)|*.json|Todos los archivos (*.*)|*.*",
+                    Title = ClaseInicial.Textos.GuardarJsonTitulo,
+                    Filter = ClaseInicial.Textos.FiltroArchivoJson,
                     FilterIndex = 1,
                     FileName = fileName
                 };
@@ -173,7 +173,7 @@ namespace TypeLibExporter_NET8
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"❌ Error al guardar archivo:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{ClaseInicial.Textos.ErrorGuardarArchivo}\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
