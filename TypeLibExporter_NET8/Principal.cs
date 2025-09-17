@@ -45,19 +45,27 @@ namespace TypeLibExporter_NET8
 
             LoadSavedLocation();
 
-            // Cursor personalizado para botones principales
-            try
+            // Cursores direccionales en botones principales
+            try { ClaseInicial.Cursores.Aplicar(btnSelectLocation); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(btnExportTypeLibs); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(btnExportVB6); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(btnExportClsIds); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(btnExportCombined); } catch { }
+
+            // Cursores direccionales en todos los elementos del menú
+            try { ApplyDirectionalCursorToMenuItems(menuStrip.Items); } catch { }
+        }
+
+        private void ApplyDirectionalCursorToMenuItems(ToolStripItemCollection items)
+        {
+            foreach (ToolStripItem item in items)
             {
-                var custom = ClaseInicial.CargarCursor("puntero.cur");
-                var useCursor = (Cursor?)custom ?? Cursors.Hand;
-                // Botones comunes del formulario principal
-                try { btnSelectLocation.Cursor = useCursor; } catch { }
-                try { btnExportTypeLibs.Cursor = useCursor; } catch { }
-                try { btnExportVB6.Cursor = useCursor; } catch { }
-                try { btnExportClsIds.Cursor = useCursor; } catch { }
-                try { btnExportCombined.Cursor = useCursor; } catch { }
+                try { ClaseInicial.Cursores.Aplicar(item); } catch { }
+                if (item is ToolStripMenuItem mi && mi.DropDownItems.Count > 0)
+                {
+                    ApplyDirectionalCursorToMenuItems(mi.DropDownItems);
+                }
             }
-            catch { }
         }
 
         #region File Extension Filtering

@@ -3,6 +3,7 @@ using System.IO;
 using System.Reflection;
 using System.Text.Json;
 using System.Drawing;
+using System.Windows.Forms;
 using TypeLibExporter_NET8.Servicios;
 
 namespace TypeLibExporter_NET8.Clases
@@ -75,6 +76,93 @@ namespace TypeLibExporter_NET8.Clases
             /// <summary>Búsqueda/filtrado de listas.</summary>
             public static List<object> Filtrar(List<object> origen, string termino, bool esClsId) =>
                 BusquedaJson.Filtrar(origen, termino, esClsId);
+        }
+
+        // Soporte de cursores direccionales (izquierda/derecha)
+        public static class Cursores
+        {
+            private static Cursor? cursorLeft;
+            private static Cursor? cursorRight;
+            private static readonly Dictionary<Control, int> ultimoX = new();
+            private static readonly Dictionary<object, int> ultimoXItems = new();
+
+            private static void CargarSiNecesario()
+            {
+                if (cursorLeft == null)
+                {
+                    try { cursorLeft = CargarCursor("puntero-left.cur"); } catch { }
+                }
+                if (cursorRight == null)
+                {
+                    try { cursorRight = CargarCursor("puntero-right.cur"); } catch { }
+                }
+            }
+
+            /// <summary>
+            /// Aplica un cursor que cambia a izquierda/derecha según el movimiento horizontal del mouse.
+            /// Si no existen los cursores, usa Cursors.Hand.
+            /// </summary>
+            public static void Aplicar(Control control)
+            {
+                if (control == null) return;
+                CargarSiNecesario();
+
+                var fallback = Cursors.Hand;
+                control.Cursor = cursorRight ?? fallback;
+
+                control.MouseMove -= OnMouseMove;
+                control.MouseMove += OnMouseMove;
+            }
+
+            private static void OnMouseMove(object? sender, MouseEventArgs e)
+            {
+                if (sender is not Control ctrl) return;
+                CargarSiNecesario();
+                int lastX = 0;
+                if (!ultimoX.TryGetValue(ctrl, out lastX)) lastX = e.X;
+                // Determinar dirección
+                if (e.X > lastX)
+                {
+                    ctrl.Cursor = cursorRight ?? Cursors.Hand;
+                }
+                else if (e.X < lastX)
+                {
+                    ctrl.Cursor = cursorLeft ?? Cursors.Hand;
+                }
+                ultimoX[ctrl] = e.X;
+            }
+
+            /// <summary>
+            /// Aplica cursor direccional a elementos de menú (ToolStripItem). Cambia Cursor.Current.
+            /// </summary>
+            public static void Aplicar(ToolStripItem item)
+            {
+                if (item == null) return;
+                CargarSiNecesario();
+                item.MouseEnter -= OnItemMouseEnter;
+                item.MouseEnter += OnItemMouseEnter;
+                item.MouseMove -= OnItemMouseMove;
+                item.MouseMove += OnItemMouseMove;
+            }
+
+            private static void OnItemMouseEnter(object? sender, EventArgs e)
+            {
+                CargarSiNecesario();
+                Cursor.Current = cursorRight ?? Cursors.Hand;
+            }
+
+            private static void OnItemMouseMove(object? sender, MouseEventArgs e)
+            {
+                if (sender == null) return;
+                CargarSiNecesario();
+                int lastX = 0;
+                if (!ultimoXItems.TryGetValue(sender, out lastX)) lastX = e.X;
+                if (e.X > lastX)
+                    Cursor.Current = cursorRight ?? Cursors.Hand;
+                else if (e.X < lastX)
+                    Cursor.Current = cursorLeft ?? Cursors.Hand;
+                ultimoXItems[sender] = e.X;
+            }
         }
 
         // Wrapper pequeño para tipar mejor el resultado del inspector

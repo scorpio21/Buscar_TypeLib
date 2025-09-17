@@ -147,10 +147,10 @@ namespace TypeLibExporter_NET8
             lstLibraries.Dock = DockStyle.Fill;
             lstLibraries.Font = new Font("Segoe UI", 9F);
             lstLibraries.ItemHeight = 25;
-            lstLibraries.Location = new Point(0, 167);
+            lstLibraries.Location = new Point(0, 176);
             lstLibraries.Margin = new Padding(4, 5, 4, 5);
             lstLibraries.Name = "lstLibraries";
-            lstLibraries.Size = new Size(640, 615);
+            lstLibraries.Size = new Size(640, 606);
             lstLibraries.TabIndex = 3;
             lstLibraries.DoubleClick += LstLibraries_DoubleClick;
             // 
@@ -160,7 +160,7 @@ namespace TypeLibExporter_NET8
             lblSearchResults.Dock = DockStyle.Top;
             lblSearchResults.Font = new Font("Segoe UI", 9F);
             lblSearchResults.ForeColor = Color.FromArgb(107, 114, 128);
-            lblSearchResults.Location = new Point(0, 125);
+            lblSearchResults.Location = new Point(0, 134);
             lblSearchResults.Margin = new Padding(4, 0, 4, 0);
             lblSearchResults.Name = "lblSearchResults";
             lblSearchResults.Padding = new Padding(14, 8, 14, 8);
@@ -180,22 +180,22 @@ namespace TypeLibExporter_NET8
             panelSearch.Margin = new Padding(4, 5, 4, 5);
             panelSearch.Name = "panelSearch";
             panelSearch.Padding = new Padding(14, 13, 14, 13);
-            panelSearch.Size = new Size(640, 58);
+            panelSearch.Size = new Size(640, 67);
             panelSearch.TabIndex = 1;
             // 
             // btnClearSearch
             // 
-            btnClearSearch.BackColor = Color.Red;
+            btnClearSearch.BackColor = Color.White;
             btnClearSearch.FlatAppearance.BorderSize = 0;
             btnClearSearch.FlatStyle = FlatStyle.Flat;
             btnClearSearch.Font = new Font("Segoe UI", 8F, FontStyle.Bold);
             btnClearSearch.ForeColor = Color.White;
-            btnClearSearch.Location = new Point(586, 6);
+            btnClearSearch.Image = (Image)resources.GetObject("btnClearSearch.Image");
+            btnClearSearch.Location = new Point(586, 5);
             btnClearSearch.Margin = new Padding(4, 5, 4, 5);
             btnClearSearch.Name = "btnClearSearch";
-            btnClearSearch.Size = new Size(38, 42);
+            btnClearSearch.Size = new Size(50, 49);
             btnClearSearch.TabIndex = 2;
-            btnClearSearch.Text = "✖";
             btnClearSearch.UseVisualStyleBackColor = false;
             btnClearSearch.Click += BtnClearSearch_Click;
             // 
@@ -212,15 +212,15 @@ namespace TypeLibExporter_NET8
             // 
             // lblSearch
             // 
+            lblSearch.AutoSize = true;
             lblSearch.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             lblSearch.ForeColor = Color.FromArgb(31, 41, 55);
-            lblSearch.Location = new Point(18, 8);
+            lblSearch.Location = new Point(14, 13);
             lblSearch.Margin = new Padding(4, 0, 4, 0);
             lblSearch.Name = "lblSearch";
-            lblSearch.Padding = new Padding(22, 0, 0, 0);
-            lblSearch.Size = new Size(108, 37);
+            lblSearch.Size = new Size(106, 25);
             lblSearch.TabIndex = 0;
-            lblSearch.Text = "Buscar:";
+            lblSearch.Text = "🔍 Buscar:";
             lblSearch.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // panelListButtons
