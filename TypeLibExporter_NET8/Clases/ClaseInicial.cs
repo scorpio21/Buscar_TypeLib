@@ -68,9 +68,6 @@ namespace TypeLibExporter_NET8.Clases
         // Acceso simplificado a servicios
         public static class Servicios
         {
-            /// <summary>Utilidades de archivos.</summary>
-            public static ArchivoUtil Archivos => new ArchivoUtil();
-
             /// <summary>Inspector/detección de JSON.</summary>
             public static ResultadoJson Inspect(string json, string file) =>
                 new ResultadoJson(JsonInspector.Inspeccionar(json, file));

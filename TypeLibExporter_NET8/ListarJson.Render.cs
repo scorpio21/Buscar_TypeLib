@@ -1,6 +1,7 @@
 using System.Text.Json;
 using System.Linq;
 using TypeLibExporter_NET8.Servicios;
+using TypeLibExporter_NET8.Clases;
 
 namespace TypeLibExporter_NET8
 {

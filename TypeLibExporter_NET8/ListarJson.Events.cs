@@ -1,4 +1,6 @@
 using System.Linq;
+using TypeLibExporter_NET8.Clases;
+using TypeLibExporter_NET8.Servicios;
 
 namespace TypeLibExporter_NET8
 {

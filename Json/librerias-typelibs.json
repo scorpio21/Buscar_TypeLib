@@ -1,0 +1,2529 @@
+[
+  {
+    "filename": "ACCESSIBILITYCPL.DLL",
+    "type_lib": "{{714DD4F6-7676-4BDE-925A-C2FEC2073F36}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "a26e33a4b9308634547f26bd38a4c9d6725204abe9e41a0eb8c85640d8045eca",
+    "filesize": 244224
+  },
+  {
+    "filename": "ACEDAO.DLL",
+    "type_lib": "{{4AC9E1DA-5BAD-4AC7-86E3-24F4CDCECA28}}\\c.0\\0\\win32\\",
+    "version": "16.0.19127.20082",
+    "checksum": "6591f12cae2d8bf9fdbdd0aca1879e6114e97bf8b57cfcaa1f4da3da8dbfcd2a",
+    "filesize": 877504
+  },
+  {
+    "filename": "ACROIEFAVSTUB.DLL",
+    "type_lib": "{{04C567CB-A52F-41F4-9628-10CC965E7179}}\\1.0\\0\\win32\\",
+    "version": "22.3.20310.0",
+    "checksum": "c8912debdd187d2d6731a070c5b76a721606f32d0ee95c161731c9505c4f13bc",
+    "filesize": 174032
+  },
+  {
+    "filename": "ACROPDF.DLL",
+    "type_lib": "{{05BFD3F1-6319-4F30-B752-C7A22889BCC4}}\\1.0\\0\\win32\\",
+    "version": "22.3.20310.0",
+    "checksum": "6c0d02c3141c9eb61c3c0ce12ff5e7bfc2793cda639d22e1b13067158f3f8687",
+    "filesize": 515536
+  },
+  {
+    "filename": "ADOBEAFP.DLL",
+    "type_lib": "{{A4214ABB-6C96-4566-ACCB-9A6767AFB285}}\\1.0\\0\\win32\\",
+    "version": "22.3.20310.0",
+    "checksum": "2ceaed3731f260b26d1ebc66b057d71fc0b2788aa3d89283933434f5c28d77b7",
+    "filesize": 375760
+  },
+  {
+    "filename": "AITOOL.DLL",
+    "type_lib": "{{822265A2-C5A7-11D1-8541-00A0C911E8B0}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "360cfef5301845867d561496ef471ddcfe85c698a70f8d339f88d807cfc358ed",
+    "filesize": 118784
+  },
+  {
+    "filename": "APDS.DLL",
+    "type_lib": "{{8cec5899-07a1-11d9-b15e-000d56bfe6ee}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "2e42ad9598261365a184d1489479eed789e167fb350766f2de9c0b65b5fa3c2d",
+    "filesize": 212992
+  },
+  {
+    "filename": "APPIDPOLICYENGINEAPI.DLL",
+    "type_lib": "{{85C3F8F7-CFCE-4259-87FF-CAB1F4521F6E}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "22ed52f9a90efb516535462a5342c37a21fc3b94a742fddd4889d4681991063a",
+    "filesize": 323584
+  },
+  {
+    "filename": "APPWIZ.OCX",
+    "type_lib": "{{E9FAEC9B-AC84-11D1-8F3B-00A0C9150754}}\\1.1\\0\\win32\\",
+    "version": "6.00.8177",
+    "checksum": "39088604c1229afcb212004315cad6abee6b38b3045d63b6ac76ca2cf7ae6994",
+    "filesize": 831488
+  },
+  {
+    "filename": "ATL.DLL",
+    "type_lib": "{{44EC0535-400F-11D0-9DCD-00A0C90391D3}}\\1.0\\0\\win32\\",
+    "version": "3.05.2284",
+    "checksum": "ca2057dc3b13701d217d7e816251f7907eb77a70e1e746a466db5d19bd5e39cb",
+    "filesize": 84480
+  },
+  {
+    "filename": "ATLOBJ.DLL",
+    "type_lib": "{{B3943EF0-CEC5-178F-AF20-00A0C9034837}}\\1.0\\0\\win32\\",
+    "version": "6.00.8168.0",
+    "checksum": "121fb5c041785e1f2e669a7d69d4c7ea220aae340f91e615a41372263303b0cd",
+    "filesize": 647239
+  },
+  {
+    "filename": "AURORA.NETWORK.DLL",
+    "type_lib": "{{88D89F7C-BB59-4F13-9850-93CBD874039D}}\\1.5\\0\\win32\\",
+    "version": "2.0.0.0",
+    "checksum": "d6fe21fdf43242d0e8a5348ea4d9a4dd523f3cc67622bf1c175492023a49aaab",
+    "filesize": 188416
+  },
+  {
+    "filename": "AXBOOKMARKS.DLL",
+    "type_lib": "{{54C0E0BD-CF59-4B8E-B463-B18A40A45F30}}\\1.0\\0\\win32\\",
+    "version": "8.04",
+    "checksum": "6b837eac2a2988ca181d915fd6e430af96da189328320f8742f93eef2a5c0966",
+    "filesize": 86016
+  },
+  {
+    "filename": "AXCODEANALYZER.DLL",
+    "type_lib": "{{AB441022-335F-4DED-88EC-DA214E72262D}}\\1.0\\0\\win32\\",
+    "version": "8.04.0373",
+    "checksum": "4d9a30634c25dde53142500380cded0c04492cca795f2bb7b953ea7eda3b06a5",
+    "filesize": 700416
+  },
+  {
+    "filename": "AXCODEBUILDERS.DLL",
+    "type_lib": "{{60E71A91-00E9-4D9A-A70D-512570C91CCB}}\\1.0\\0\\win32\\",
+    "version": "8.04.0041",
+    "checksum": "a28820c937eec7d5e415bbad6c7dcb606debfcff712ee1ba8c33c3089fb82130",
+    "filesize": 192512
+  },
+  {
+    "filename": "AXCS.DLL",
+    "type_lib": "{{9AF59502-6202-4611-893E-1B5F6977B3F1}}\\1.0\\0\\win32\\",
+    "version": "8.04.4555",
+    "checksum": "63246fc66546ea99cee42d74ab490737f9526dbc656ae5a071f4299948f7a9f9",
+    "filesize": 3272704
+  },
+  {
+    "filename": "AXCSAPPSERVER.DLL",
+    "type_lib": "{{77092A61-4110-4E56-B4F5-FBCB3FA092D9}}\\1.0\\0\\win32\\",
+    "version": "8.04.0021",
+    "checksum": "fcfd10cfad5434095380a3f079551f6061f6e6c351cdc8b9df67635c34b59ace",
+    "filesize": 20480
+  },
+  {
+    "filename": "AXCSAUTOLIST.DLL",
+    "type_lib": "{{6D7BB793-F80D-400D-ABD9-0451B6AC86DE}}\\1.0\\0\\win32\\",
+    "version": "8.04",
+    "checksum": "d1db3f2cc86118c98391803cc7555c2440d554b8a6e9a5b3c6686a8de4f5ae0c",
+    "filesize": 409600
+  },
+  {
+    "filename": "AXCSCOMMENTS.DLL",
+    "type_lib": "{{A6981D30-C61F-4052-B545-0EE05D274983}}\\1.0\\0\\win32\\",
+    "version": "8.04.0056",
+    "checksum": "4a2b6314a7c349409038946d53b3cbd65d729b0555eb469e1e1345c8e34575a6",
+    "filesize": 258048
+  },
+  {
+    "filename": "AXCSCONTROLTREE.DLL",
+    "type_lib": "{{5EA5AA30-8375-41DE-896F-E898AC5B9B5E}}\\1.0\\0\\win32\\",
+    "version": "8.04.0003",
+    "checksum": "64df7d610a5a044630e843ba2b23cd17a6eebc5d874e6e1b83be947fc69f9be5",
+    "filesize": 413696
+  },
+  {
+    "filename": "AXCSDESIGNERANALYZER.DLL",
+    "type_lib": "{{E7A90CE6-B421-4281-A459-CB269EFF47C5}}\\1.1\\0\\win32\\",
+    "version": "8.04.0002",
+    "checksum": "e8eb9c49f44a607f93e0acb9a5faf4d0c9e992cb86ca031278450d6d265e0c6f",
+    "filesize": 892928
+  },
+  {
+    "filename": "AXCSDIAGLITE.DLL",
+    "type_lib": "{{46959152-F9CF-4CF5-AEB4-D35C41CF6080}}\\1.1\\0\\win32\\",
+    "version": "8.04",
+    "checksum": "7ba896272a3b29da1553ccb6a6b3c684f0a353bb46f8a69843b28fc9e9a35aa5",
+    "filesize": 28672
+  },
+  {
+    "filename": "AXCSEXTENDEDCOMBOVB.OCX",
+    "type_lib": "{{9967BAEE-47F5-4A00-9986-7AED33AFB811}}\\1.1\\0\\win32\\",
+    "version": "8.04.0002",
+    "checksum": "623581a00bca9dc9116865524cd9a4940c33944a1fe3b85bff047472eb349609",
+    "filesize": 110592
+  },
+  {
+    "filename": "AXCSLAYOUTS.DLL",
+    "type_lib": "{{4BF1FB46-02D5-4623-B938-E5252FF8F515}}\\1.0\\0\\win32\\",
+    "version": "8.04.0021",
+    "checksum": "e2797b98e1481a374b5a59c9656f282c05bc842c44e6e35712a0aa9a00c355d1",
+    "filesize": 135168
+  },
+  {
+    "filename": "AXCSMANAGERS.DLL",
+    "type_lib": "{{45D2E340-C18A-4C83-A62F-DD4A88E930A4}}\\1.0\\0\\win32\\",
+    "version": "8.04.0164",
+    "checksum": "ab3056e94abbf2cf06cfc894aed348a41a13b697018f185bb753823613b57bb0",
+    "filesize": 1282048
+  },
+  {
+    "filename": "AXCSOPTIONS.DLL",
+    "type_lib": "{{23B9F507-0C9F-4178-B01C-CE026C3881E2}}\\1.0\\0\\win32\\",
+    "version": "8.04.0102",
+    "checksum": "37d977ce0212f71eb680c5b95a112361dc8b2a269285566869c3f6041fa68fc1",
+    "filesize": 798720
+  },
+  {
+    "filename": "AXCSSCOPESELECTORVB.OCX",
+    "type_lib": "{{F73FA25E-5863-492D-99E1-BA707C1F95E6}}\\1.0\\0\\win32\\",
+    "version": "8.04.0002",
+    "checksum": "50fb90204b400a15b948890fc3b62e3497467877e9fb399683bf84b9045127ff",
+    "filesize": 143360
+  },
+  {
+    "filename": "AXCSSUPPORT.DLL",
+    "type_lib": "{{93C76772-47AD-4103-AC07-EEF37C7E23E7}}\\1.6f\\0\\win32\\",
+    "version": "8.04.0061",
+    "checksum": "76b7dc085f4d370b8801235dc14e01e6c5c3879ab59a5fcc8802a9f7b80d109a",
+    "filesize": 536576
+  },
+  {
+    "filename": "AXCSSYNTAXSUPPORT.DLL",
+    "type_lib": "{{4A7B667A-EA28-4082-A9D7-4A15CD5423D3}}\\2.0\\0\\win32\\",
+    "version": "8.04",
+    "checksum": "8ad7d0b0851a8b7bfc14d6263af654a1e6322c3fad2c36803fb3648810a88d96",
+    "filesize": 20480
+  },
+  {
+    "filename": "AXCSTASKLIST.DLL",
+    "type_lib": "{{3EAB981C-D04B-41FB-8377-FB20A4BB9AF8}}\\1.0\\0\\win32\\",
+    "version": "8.04.0212",
+    "checksum": "efae9ad1366bf625c282192d547d7ad1c0a1072fba9fa263ac0cfdbebf2dce41",
+    "filesize": 344064
+  },
+  {
+    "filename": "AXDOCWIZ.DLL",
+    "type_lib": "{{FFF59735-06D6-11D2-8D70-00A0C98B28E2}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "2d53899b4cadada0e891e7d7d2141d90df06d553ef7d8dc6e88a6caa39c69982",
+    "filesize": 176128
+  },
+  {
+    "filename": "AXDTOOLS.DLL",
+    "type_lib": "{{15281865-1B3E-4C7B-A794-391733AABC0E}}\\1.0\\0\\win32\\",
+    "version": "8.04.0055",
+    "checksum": "ac87ac2fe9ec8593a0e5dc346b70e73488f2ddb87fa95c037a8f67b0fd3d7161",
+    "filesize": 344064
+  },
+  {
+    "filename": "AXEH.DLL",
+    "type_lib": "{{8E923068-D965-438D-896F-B9E5F2EBB407}}\\1.0\\0\\win32\\",
+    "version": "8.04.0046",
+    "checksum": "293411b9ad1f45ab06cff6d4833b135e3f1bdef9fb45343052cdb1c5c2a1fadd",
+    "filesize": 983040
+  },
+  {
+    "filename": "AXFINDREFS.DLL",
+    "type_lib": "{{56C57AE8-878B-4BD2-9614-E8CCA2F1F281}}\\1.0\\0\\win32\\",
+    "version": "8.04.0002",
+    "checksum": "06458a3a9b787fb3e490713f6d7beda04d438b7a080585f2f680ee3c968db79f",
+    "filesize": 217088
+  },
+  {
+    "filename": "AXFORMATTER.DLL",
+    "type_lib": "{{850264B4-6CF6-4D20-8079-96BCD5D400D8}}\\1.0\\0\\win32\\",
+    "version": "8.04.0052",
+    "checksum": "e1a8832cfaf692fb8ce1d9f41d60cdacf1e41d1a2d98cc55e812bb13cfa84fa2",
+    "filesize": 450560
+  },
+  {
+    "filename": "AXMSGHOOK.OCX",
+    "type_lib": "{{7DFAA513-5F72-11D2-A492-204C4F4F5020}}\\1.0\\0\\win32\\",
+    "version": "1, 4, 0, 0",
+    "checksum": "02887889c56a46550324fe0fb59edd73bc3b28080464615527a8b56e9ae2a2e1",
+    "filesize": 36864
+  },
+  {
+    "filename": "AXPROPERTYTIPS.DLL",
+    "type_lib": "{{026FA9C1-8800-40A5-99FB-58D1E4D531EC}}\\1.0\\0\\win32\\",
+    "version": "8.04.0021",
+    "checksum": "908e1f59ad337afa7afc86ccdc7a7e70bec01feee48b65c0d4a236e471d12209",
+    "filesize": 45056
+  },
+  {
+    "filename": "AXREVIEWSTRINGS.DLL",
+    "type_lib": "{{649D1598-2276-4050-8F57-935408CFAB3D}}\\1.0\\0\\win32\\",
+    "version": "8.04",
+    "checksum": "ac8c45cca8b91477cf3df00db61e7bdbb4621c230f4246e67050c106e46dbb3a",
+    "filesize": 90112
+  },
+  {
+    "filename": "AXSOURCECOLEX.DLL",
+    "type_lib": "{{C60AAA5A-9330-4A0B-B1A5-B5CA2F84B6BC}}\\1.0\\0\\win32\\",
+    "version": "1, 3, 0, 0",
+    "checksum": "5316242a19d5eb326385acb458e86c5b8c3a3f76ce7bbdca083b30cec477844f",
+    "filesize": 126976
+  },
+  {
+    "filename": "AXSPELLINGCHECKER.DLL",
+    "type_lib": "{{A8AE0A37-31A9-4C64-8500-DCF9AB60A752}}\\1.0\\0\\win32\\",
+    "version": "8.04.0131",
+    "checksum": "d2f722776c23effb9b6df49c28116586124bbbcbf40cb733eeb134dba1de2c79",
+    "filesize": 192512
+  },
+  {
+    "filename": "AXSPELLWORD.OCX",
+    "type_lib": "{{6E212978-DC19-4913-8F6D-2A326279EBE2}}\\1.0\\0\\win32\\",
+    "version": "1, 0, 0, 1",
+    "checksum": "66fbf96e77b982af2d3b4649663bccbd716ba08aa8f512d41d0dc50e69c85f38",
+    "filesize": 40960
+  },
+  {
+    "filename": "AXSTANDARDSCHECKER.DLL",
+    "type_lib": "{{5E6EF8F7-8237-4DEA-A82A-F6A8D4490692}}\\1.0\\0\\win32\\",
+    "version": "8.04",
+    "checksum": "b0de00ecec021723b1915b0b68ed8de3f66ac14b805a2669ee16e76aade11ef3",
+    "filesize": 77824
+  },
+  {
+    "filename": "AXSTATISTICS.DLL",
+    "type_lib": "{{1B88DE1D-B8E1-4B95-BF71-9DE24E271DAD}}\\1.0\\0\\win32\\",
+    "version": "8.04.0031",
+    "checksum": "9129641d3a145f1895da7bc268e888ba1a83ff762aa781b10b7fec660d775eb1",
+    "filesize": 131072
+  },
+  {
+    "filename": "AXSUBTMR.DLL",
+    "type_lib": "{{F4305126-DDEF-436F-87A2-428F37C7060B}}\\1.0\\0\\win32\\",
+    "version": "1.00.0007",
+    "checksum": "9fc89a223a5e528f9c67e5fcc769346d8b7f0bbe32e1eef5e428ed61dd7f2ec1",
+    "filesize": 45056
+  },
+  {
+    "filename": "AXSUPPORTCTLS.OCX",
+    "type_lib": "{{C3A5B998-49E5-4AFC-BCBF-061D1E30C19A}}\\1.10\\0\\win32\\",
+    "version": "7.01.0048",
+    "checksum": "bffd5d1971a587503fd6a59bd447fc323d88d830a5f2377dc398f344bfe75d38",
+    "filesize": 487424
+  },
+  {
+    "filename": "AZROLES.DLL",
+    "type_lib": "{{11A8B8EE-BF30-409A-8EF7-3A143EF70332}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "b077e6feb0dd65f50b32fada18b9d8fa2e296b6502d6100413a555da06dede71",
+    "filesize": 647168
+  },
+  {
+    "filename": "BCDSRV.DLL",
+    "type_lib": "{{DD6F48D7-D5B2-4901-BE88-D140D1C40A07}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "73f31ad1b80e920fdb96c9c7f2d7035ae7c7c714f23a4e96a8f93cdeee82be13",
+    "filesize": 106496
+  },
+  {
+    "filename": "CATSRVUT.DLL",
+    "type_lib": "{{640D3148-A423-11D2-B943-00C04F79D22F}}\\1.0\\0\\win32\\",
+    "version": "2001.12.10941.16384 (WinBuild.160101.0800)",
+    "checksum": "1405f97b63f9fa13abda324d5fa2ccd972979ccac8967bc9f5870fb3b2a28ede",
+    "filesize": 419328
+  },
+  {
+    "filename": "CDOSYS.DLL",
+    "type_lib": "{{CD000000-8B95-11D1-82DB-00C04FB1625D}}\\1.0\\0\\win32\\",
+    "version": "6.6.26100.1 (WinBuild.160101.0800)",
+    "checksum": "b768d0772744694805d19ce65b03036f9788d65f99a9f47b750bcb41c5424ea3",
+    "filesize": 857088
+  },
+  {
+    "filename": "CERTCLI.DLL",
+    "type_lib": "{{372FCE32-4324-11D0-8810-00A0C903B83C}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "8bfc1017e757958f8aec591874ead4d7cc71aff451d23926d0b6e14eb67d597e",
+    "filesize": 512000
+  },
+  {
+    "filename": "CERTENC.DLL",
+    "type_lib": "{{13199C00-7494-11D0-8816-00A0C903B83C}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "c5ff87e5bb79ac7af17f198b0660e3aaa3105eb483bdd416cdf30ef174dd438f",
+    "filesize": 98304
+  },
+  {
+    "filename": "CERTENROLL.DLL",
+    "type_lib": "{{728ab348-217d-11da-b2a4-000e7bbb2b09}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "20d03c690c103f641a3116ab7ab5e640a9b2cf24b6198d7a276308d33704e115",
+    "filesize": 2883584
+  },
+  {
+    "filename": "CHARTWIZ.OCX",
+    "type_lib": "{{D5288401-E6C5-11D1-BE7D-C63815000000}}\\1.0\\0\\win32\\",
+    "version": "6.00.8177",
+    "checksum": "10497a0e3095e30e24a4751b3bdb7932a84d7ad1e6fb25d0ff1c91e8162dc300",
+    "filesize": 147456
+  },
+  {
+    "filename": "CIC.DLL",
+    "type_lib": "{{3D5905E0-523C-11D1-9FEA-00600832DB4A}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "9ae580657880654095dda03e5a6f674a6621d85bfb25873d3e83876ef0df4e03",
+    "filesize": 225280
+  },
+  {
+    "filename": "CLSSBLD.DLL",
+    "type_lib": "{{AEBAB8FB-06D6-11D2-8D70-00A0C98B28E2}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "931fda6c618470277b53465959dc5570567bddeb69a0b7906637e9bc59128205",
+    "filesize": 626688
+  },
+  {
+    "filename": "CMAX20.OCX",
+    "type_lib": "{{ECEDB943-AC41-11D2-AB20-000000000000}}\\2.0\\0\\win32\\",
+    "version": "2.1.0.24",
+    "checksum": "72114881fdd435b53ac69a623e44f291893fdffff8d2f7149afa01f32477ffcd",
+    "filesize": 389120
+  },
+  {
+    "filename": "CMIV2.DLL",
+    "type_lib": "{{F31091E5-B0A8-11D6-B6FC-005056C00008}}\\2.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "8552adfda6ca26e2cbe7baad087e6420ceb1a280dc57790453420f3f138fcc54",
+    "filesize": 2733456
+  },
+  {
+    "filename": "CODEJOCK.COMMANDBARS.V16.2.6.OCX",
+    "type_lib": "{{555E8FCC-830E-45CC-AF00-A012D5AE7451}}\\10.2\\0\\win32\\",
+    "version": "16, 2, 6, 0",
+    "checksum": "273ec4304d659e1a5bff95597c5a3baa84727b5303ea9d14e636881156b30dd7",
+    "filesize": 2629208
+  },
+  {
+    "filename": "COMADMIN.DLL",
+    "type_lib": "{{F618C513-DFB8-11D1-A2CF-00805FC79235}}\\1.0\\0\\win32\\",
+    "version": "2001.12.10941.16384 (WinBuild.160101.0800)",
+    "checksum": "d561061978efe22a131604e570598c930574edd7952dcc82cb798743209861a2",
+    "filesize": 244224
+  },
+  {
+    "filename": "COMCT232.OCX",
+    "type_lib": "{{FE0065C0-1B7B-11CF-9D53-00AA003C9CB6}}\\1.1\\0\\win32\\",
+    "version": "6.00.8022",
+    "checksum": "45af0570ac918a57a0e4f868cc4198cbac02957c6be35ec131987101683a9f97",
+    "filesize": 164144
+  },
+  {
+    "filename": "COMCT332.OCX",
+    "type_lib": "{{38911DA0-E448-11D0-84A3-00DD01104159}}\\1.1\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "80ba618d709a2f7fdbe868d33c6cbfcf9a8de03c29cc8d1732fcf69211216836",
+    "filesize": 369696
+  },
+  {
+    "filename": "COMCTL32.OCX",
+    "type_lib": "{{6B7E6392-850A-101B-AFC0-4210102A8DA7}}\\1.3\\0\\win32\\",
+    "version": "6.00.9816",
+    "checksum": "4f97aa44d3f5ecab907908d44a2cccd73ad67193fc10084ee1ba01577d9ad384",
+    "filesize": 614992
+  },
+  {
+    "filename": "COMDLG32.OCX",
+    "type_lib": "{{F9043C88-F6F2-101A-A3C9-08002B2F49FB}}\\1.2\\0\\win32\\",
+    "version": "6.01.9816",
+    "checksum": "00b5af20504fa3440ef3f9670a49963622d1a3557090e349f465746213761cef",
+    "filesize": 155984
+  },
+  {
+    "filename": "COMREPL.DLL",
+    "type_lib": "{{98315905-7BE5-11D2-ADC1-00A02463D6E7}}\\1.0\\0\\win32\\",
+    "version": "2001.12.10941.16384 (WinBuild.160101.0800)",
+    "checksum": "b19ef26fde857b10032dd9bcbd59596e1de737c8963bdfb97f4d96bbf372731d",
+    "filesize": 117760
+  },
+  {
+    "filename": "COMSNAP.DLL",
+    "type_lib": "{{410381CD-AF42-11D1-8F10-00C04FC2C17B}}\\1.0\\0\\win32\\",
+    "version": "2001.12.10941.16384 (WinBuild.160101.0800)",
+    "checksum": "5cec8623d32742a11291ed220a3da5e749834290c46fcf91728ce41259fa1f8d",
+    "filesize": 233984
+  },
+  {
+    "filename": "COMSVCS.DLL",
+    "type_lib": "{{2A005C00-A5DE-11CF-9E66-00AA00A3F464}}\\1.0\\0\\win32\\",
+    "version": "2001.12.10941.16384 (WinBuild.160101.0800)",
+    "checksum": "0e874e60625631749b0bff4d54b3079e24540be6c392e4da5f360c7b1a0e27e3",
+    "filesize": 1393152
+  },
+  {
+    "filename": "CONTEXTHANDLER.DLL",
+    "type_lib": "{{B52C0F28-8D4C-4886-965C-0A772490064E}}\\1.0\\0\\win32\\",
+    "version": "6, 0, 0, 21",
+    "checksum": "e39d1b1563eef9b19a3144c4d995c8e30c96af5d91fcbb9607ac975289e415be",
+    "filesize": 146328
+  },
+  {
+    "filename": "CONTEXTMENUSHIM64.DLL",
+    "type_lib": "{{CB2C0E5E-CB7B-4475-B2D1-DAEEBD6D63FC}}\\1.0\\0\\win32\\",
+    "version": "23.1.20064.0",
+    "checksum": "9214ad5a7861ce14fa02e8e6666899bd3731797dc98f8c367892d5673ca6c0ae",
+    "filesize": 2804688
+  },
+  {
+    "filename": "CORESYNC_X64.DLL",
+    "type_lib": "{{3956A7FA-824C-4184-871C-739C40164CAC}}\\1.0\\0\\win32\\",
+    "version": "7.1.2.2",
+    "checksum": "c25e04b18227e1d7247200e63f0b207f2e146d22380d0d97a8f3c6b87de36356",
+    "filesize": 793512
+  },
+  {
+    "filename": "CORRENGINE.DLL",
+    "type_lib": "{{6CAAAA3B-6502-40FE-97FC-72A290DC63CF}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.4484 (WinBuild.160101.0800)",
+    "checksum": "b16ea25a38eeb9393932a744691f654a4ab183deda5306a43ddf01762b0eabe0",
+    "filesize": 110592
+  },
+  {
+    "filename": "CRSWPP.DLL",
+    "type_lib": "{{CB1D530F-30F6-11D0-AD03-00AA00A219AA}}\\1.0\\0\\win32\\",
+    "version": "6.1.33.0",
+    "checksum": "1f044f7b4766bcdb90a01a7cfac534fbeb38618ffebeb77265a8d80a7b39e5e4",
+    "filesize": 121472
+  },
+  {
+    "filename": "CRYPTEXT.DLL",
+    "type_lib": "{{7444C709-39BF-11D1-8CD9-00C04FC29D45}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "63ef609ed5b1d7575ac62acc5628bd362b4106b8f2c78beba0eccb1b3e11e224",
+    "filesize": 98304
+  },
+  {
+    "filename": "CSSED.DLL",
+    "type_lib": "{{C456B558-E46E-11D1-AFE0-006097C9A8F0}}\\1.0\\0\\win32\\",
+    "version": "6.00.8125",
+    "checksum": "8e514722bfa99183d5a67a5037219bc162ccdcb15429bf0209700b42751fe9ce",
+    "filesize": 196608
+  },
+  {
+    "filename": "CSSEDP.OCX",
+    "type_lib": "{{306FE702-B224-11D1-9751-00A0C9034841}}\\1.0\\0\\win32\\",
+    "version": "6.00.8125",
+    "checksum": "46e48bcea36e16747d94a79f8a71ffc47999151268532f4f1dc1e09b73713a16",
+    "filesize": 386096
+  },
+  {
+    "filename": "CSSEDU.DLL",
+    "type_lib": "{{C28C0501-292F-11D1-9CAA-0060081840F3}}\\1.0\\0\\win32\\",
+    "version": "6.00.8156",
+    "checksum": "cec57b38575feaff0480944893b977005263ea839c4b6c7e6d09834f850a357f",
+    "filesize": 59894
+  },
+  {
+    "filename": "CSWSK32.OCX",
+    "type_lib": "{{33101C00-75C3-11CF-A8A0-444553540000}}\\1.0\\0\\win32\\",
+    "version": "3.60.3650",
+    "checksum": "cfde61101ce134feade5d75608bd30264b9ef5472e6937fce0627d58d4c16c43",
+    "filesize": 107560
+  },
+  {
+    "filename": "CTRLWIZ.DLL",
+    "type_lib": "{{C2530C99-06D6-11D2-8D70-00A0C98B28E2}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "169ed7f7113168a90fbf917526c84000dad1ac8c3225869dad924774c39cdcc4",
+    "filesize": 393216
+  },
+  {
+    "filename": "DAO350.DLL",
+    "type_lib": "{{00025E01-0000-0000-C000-000000000046}}\\4.0\\0\\win32\\",
+    "version": "3.51.1608.0",
+    "checksum": "a4b20735be317a924d2e36707baaf911fbae890ca53c5044fb506f15d33bcb6d",
+    "filesize": 570128
+  },
+  {
+    "filename": "DAO360.DLL",
+    "type_lib": "{{00025E01-0000-0000-C000-000000000046}}\\5.0\\0\\win32\\",
+    "version": "File not found",
+    "checksum": "File not found",
+    "filesize": 0
+  },
+  {
+    "filename": "DATAFORM.OCX",
+    "type_lib": "{{EE2AA1E4-E6C1-11D1-BE7D-C63815000000}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "5e729ce04e2cb0b74d2bbda2fe9b155eff0a3e4319c3dba8f8418502858637ce",
+    "filesize": 541728
+  },
+  {
+    "filename": "DATAVIEW.DLL",
+    "type_lib": "{{21305DB8-06D7-11D2-8D70-00A0C98B28E2}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "b5394fa0b7da8fbddc10769987a9fc19994f99acbbcc5a42adb460b982026b87",
+    "filesize": 540672
+  },
+  {
+    "filename": "DBADAPT.DLL",
+    "type_lib": "{{37AD4A20-8F65-11D0-9484-00A0C91110ED}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "15f8d7f030edd786c4d0bc21b2c15cbafede7e71f484ef640a439f1c649220a4",
+    "filesize": 45056
+  },
+  {
+    "filename": "DBGRID32.OCX",
+    "type_lib": "{{00028C01-0000-0000-0000-000000000046}}\\1.0\\0\\win32\\",
+    "version": "5.01.8104",
+    "checksum": "6cc3e18193118e5d5e0d9a3c765ff2e649a99641b55a79abf1463ed5d46928db",
+    "filesize": 525352
+  },
+  {
+    "filename": "DBLIST32.OCX",
+    "type_lib": "{{FAEEE763-117E-101B-8933-08002B2F4F5A}}\\1.1\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "114c72a291f7ac60d74d9f51d5b586915c768a7c19e5412476d0f0db994dd225",
+    "filesize": 200496
+  },
+  {
+    "filename": "DFSSHLEX.DLL",
+    "type_lib": "{{ECCDF535-45CC-11CE-B9BF-0080C87CDBA6}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "8d8dafe15cf2a678ef414504787a89f933072e745d1c906a5a2b5de3304b2edd",
+    "filesize": 65536
+  },
+  {
+    "filename": "DIAGCPL.DLL",
+    "type_lib": "{{d0b7e02b-e1a3-11dc-81ff-001185ae5e76}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "d06ebcb2bce7d9285853dffc2baa9921e1dbc56b81547719aa8800b5ca0843c5",
+    "filesize": 1097728
+  },
+  {
+    "filename": "DIFFMERGECTL.OCX",
+    "type_lib": "{{5DC92A4A-C010-11D0-9A9A-00C04FC3066A}}\\1.0\\0\\win32\\",
+    "version": "1, 0, 0, 1",
+    "checksum": "1742bcf24e0d39181dcaf6a2571ec59fa8a13ca9af9804f88b27b49ef8602f8d",
+    "filesize": 322560
+  },
+  {
+    "filename": "DLGOBJS.DLL",
+    "type_lib": "{{9464B860-DCB9-11CE-9C08-00AA0062BE57}}\\1.0\\0\\win32\\",
+    "version": "1.00.0123",
+    "checksum": "0e3b8ef7de7c63afcd13e3e9ba3120862a7091f43366c471628d6509c77d84a6",
+    "filesize": 81920
+  },
+  {
+    "filename": "DMOCX.DLL",
+    "type_lib": "{{CD6C7865-5864-11D0-ABF0-0020AF6B0B7A}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "b170e455f4b618f249725eb6644d753a74eefaedd4a16a280dacade013ff48dc",
+    "filesize": 73728
+  },
+  {
+    "filename": "DMVIEW.OCX",
+    "type_lib": "{{AEB84C80-95DC-11D0-B7FC-B61140119C4A}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "2112131dcd50c2a0e7ce4bdcf42107ae5a3cc79673af6997740614f18ac6e2d1",
+    "filesize": 155648
+  },
+  {
+    "filename": "DNSSDX.DLL",
+    "type_lib": "{{18FBED6D-F2B7-4EC8-A4A4-46282E635308}}\\1.0\\0\\win32\\",
+    "version": "3,0,0,10",
+    "checksum": "d6ac30d3a11c5586f96ce458191738db520fe5706eae1b6a23e1b9e40c7498a1",
+    "filesize": 178536
+  },
+  {
+    "filename": "DSKQUOTA.DLL",
+    "type_lib": "{{7988B57C-EC89-11cf-9C00-00AA00A14F56}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "1a644e80f7f03a18d0b4fa68a6bdf0acf373bf014e3ef950fcf2b29b1eff5d20",
+    "filesize": 151552
+  },
+  {
+    "filename": "DTCRT.DLL",
+    "type_lib": "{{B3337DD4-0691-11D0-B075-00C04FD61157}}\\1.0\\0\\win32\\",
+    "version": "6.00.8162",
+    "checksum": "6278a1f4488343a04addeef1b7002e703386f7dbaa563d48051724ea022676bb",
+    "filesize": 371648
+  },
+  {
+    "filename": "DTCSERV.DLL",
+    "type_lib": "{{E123C014-7537-11D1-9D22-006008058731}}\\1.0\\0\\win32\\",
+    "version": "6.00.8162",
+    "checksum": "8c14335cdb5332fc1f07f0a3446cf3467db040dbd4777b5a4912d4257f0fb293",
+    "filesize": 179160
+  },
+  {
+    "filename": "DTSH.DLL",
+    "type_lib": "{{1fda955a-61ff-11da-978c-0008744faab7}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "ae3cd51fae89a07c8a7f68b965dc7358bb1d4b98eddaedf2c4cf2913093f2500",
+    "filesize": 90112
+  },
+  {
+    "filename": "DX7VB.DLL",
+    "type_lib": "{{E1211242-8E94-11D1-8808-00C04FC2C602}}\\1.0\\0\\win32\\",
+    "version": "5.03.2600.5512 (xpsp.080413-0845)",
+    "checksum": "10a75e490fd192533c6907cd8159c4911258cffdfc557dc35d3dd49c0b813f17",
+    "filesize": 619008
+  },
+  {
+    "filename": "DX8VB.DLL",
+    "type_lib": "{{E1211242-8E94-11D1-8808-00C04FC2C603}}\\1.0\\0\\win32\\",
+    "version": "5.03.2600.5512 (xpsp.080413-0845)",
+    "checksum": "74ac3a4c95510ad7b9c885edb8630cb2c132128d71b43b3f56567a18a5026747",
+    "filesize": 1227264
+  },
+  {
+    "filename": "DXTMSFT.DLL",
+    "type_lib": "{{5E77EB03-937C-11D1-B047-00AA003B6061}}\\1.1\\0\\win32\\",
+    "version": "11.00.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "d6e5b71fc429664093a7af2b67d82bb527fe1f230f6ab09d423a358b7bc58a31",
+    "filesize": 403968
+  },
+  {
+    "filename": "DXTRANS.DLL",
+    "type_lib": "{{54314D1D-35FE-11D1-81A1-0000F87557DB}}\\1.1\\0\\win32\\",
+    "version": "11.00.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "3cd0e00d55f79c17f7b3c0dbc544e71e6a7a85f0acc9fdf2fc8e7c6a492ea9da",
+    "filesize": 268288
+  },
+  {
+    "filename": "EDITIONUPGRADEHELPER.DLL",
+    "type_lib": "{{09C6A793-92DC-4D27-A11D-3921C9314DED}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "807c0089ef599191542bafb36c4066d76faad9ffcb763fb055bb00accf3cd4b0",
+    "filesize": 219624
+  },
+  {
+    "filename": "EDITIONUPGRADEMANAGEROBJ.DLL",
+    "type_lib": "{{2909004A-90C2-4937-A407-2DF113C6A0CC}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "eac06260057f673ee65d97ce772a37b3eda9c9227692712da6fb4672d89ed698",
+    "filesize": 253096
+  },
+  {
+    "filename": "EHSTORAPI.DLL",
+    "type_lib": "{{ff9d683b-b90a-49b4-9649-f93756bad71f}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "8765cd809b8ec344bc67294ed3c7f99e5d706cbd8ca40fb4d203f329e11e8f0b",
+    "filesize": 119296
+  },
+  {
+    "filename": "ELEVATED.DLL",
+    "type_lib": "{{68C57A6A-2F94-4D7A-A1F9-3433C46E6D0F}}\\1.0\\0\\win32\\",
+    "version": "17.5.1 build-23298084",
+    "checksum": "d5ddbf66ab3d2e6692f6a6b96397685d3a291dadd92d7e05ac5d14bccc69ae59",
+    "filesize": 213440
+  },
+  {
+    "filename": "ES.DLL",
+    "type_lib": "{{4E14FB90-2E22-11D1-9964-00C04FBBB345}}\\1.0\\0\\win32\\",
+    "version": "2001.12.10941.16384 (WinBuild.160101.0800)",
+    "checksum": "c40b9c608d1adaea58f72c5ba6c85c91aeae8351a04201b98a424adcf001321b",
+    "filesize": 351232
+  },
+  {
+    "filename": "ESTRUCTURAS.DLL",
+    "type_lib": "{{C7965C71-00F0-4230-B8E2-9AF7AD78CEDE}}\\1.0\\0\\win32\\",
+    "version": "1.0.0.1",
+    "checksum": "6abe72cccfa5793c83d84bba5c0d7ebfed0eb4343814a5e21d705e31c917153e",
+    "filesize": 86016
+  },
+  {
+    "filename": "EVENTCLS.DLL",
+    "type_lib": "{{3DE641EF-0556-4D4A-98D5-7DBD8AD5D70F}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "b18375a85e139d07796638cdcb798a2646b9940bca62f455a7a3d4baae0bcc6f",
+    "filesize": 49152
+  },
+  {
+    "filename": "FILER.DLL",
+    "type_lib": "{{03C25B11-2870-11D0-A458-00AA005FEFEE}}\\1.0\\0\\win32\\",
+    "version": "6.0.8015.0",
+    "checksum": "df6fcd4025bc93cf48f606722a2ae2499b7162108cbad4048c178421f8b6c050",
+    "filesize": 40960
+  },
+  {
+    "filename": "FILESYNCSHELL.DLL",
+    "type_lib": "{{C9F3F6BB-3172-4CD8-9EB7-37C9BE601C87}}\\1.0\\0\\win32\\",
+    "version": "25.159.0817.0003",
+    "checksum": "de2a6b6ad6b785f8af594e63fed6e745deddff178b33ee7045df22fd3d9252f7",
+    "filesize": 1770856
+  },
+  {
+    "filename": "FINDNETPRINTERS.DLL",
+    "type_lib": "{{0FFF9602-69CF-4728-9EA4-141514866CA2}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "7d9bfbbe54e491b465b80d78c866d8f84ee024520db3ed79a9187fcb72ff732d",
+    "filesize": 58880
+  },
+  {
+    "filename": "FIREWALLAPI.DLL",
+    "type_lib": "{{58FBCF7C-E7A9-467C-80B3-FC65E8FCCA08}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.6584 (WinBuild.160101.0800)",
+    "checksum": "41cf4988fc798f24c7c93ce871efd5450cf12583156b6c1ff7eb8648a760def7",
+    "filesize": 496640
+  },
+  {
+    "filename": "FIREWALLCONTROLPANEL.DLL",
+    "type_lib": "{{B9C76E7B-D029-44EB-896F-F02FC6E9ABD5}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "8691b5bf2c790533e91beaec9233decef170fa569da5b3ad44ce0de2a806fe2d",
+    "filesize": 327680
+  },
+  {
+    "filename": "FLEXWIZ.OCX",
+    "type_lib": "{{BEC61919-E6C4-11D1-BE7D-C63815000000}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "e060fe65eb27aa99429bb575a5b2ce0d6999244d74fde0fbeac2d4eb6699bfdd",
+    "filesize": 226328
+  },
+  {
+    "filename": "FLUPL.OCX",
+    "type_lib": "{{84D50DE0-C867-11CF-B1AE-00AA00A3F2C3}}\\1.0\\0\\win32\\",
+    "version": "7.0.794.27",
+    "checksum": "9501d513776dcaea3ede184cb8ee0bbcb8ec98ab32eb42c3f0e229b248a8c048",
+    "filesize": 126448
+  },
+  {
+    "filename": "FOXHWND.OCX",
+    "type_lib": "{{C94A5CC0-CA97-11CF-8752-00AA0061121A}}\\1.0\\0\\win32\\",
+    "version": "6.0.8049.0",
+    "checksum": "170cab42b4027a0c5f5a5c526d473371ca52bab836955984f1eb6315e92f850c",
+    "filesize": 25600
+  },
+  {
+    "filename": "FOXTLIB.OCX",
+    "type_lib": "{{22852EE8-B01B-11CF-B826-00A0C9055D9E}}\\1.0\\0\\win32\\",
+    "version": "6.0.8049.0",
+    "checksum": "557a8f255727f53de85d737c1f94e6bad7ee1d9a8c004f0a090960592d7f4215",
+    "filesize": 31232
+  },
+  {
+    "filename": "FP30WEC.DLL",
+    "type_lib": "{{9AF971A1-8E7A-11D0-A2BB-00C04FC33E92}}\\1.0\\0\\win32\\",
+    "version": "3.0.2.926",
+    "checksum": "514558080ad32384a221433ff080defcf645a3542477a1d51c74b38216adb6c2",
+    "filesize": 408848
+  },
+  {
+    "filename": "FPOLE.OCX",
+    "type_lib": "{{EF284181-FFB2-11D0-861A-00A0C903A97F}}\\1.0\\0\\win32\\",
+    "version": "1, 6, 0, 0",
+    "checksum": "54b110a77f966f5bf1346a20bde94df276c7c1d2564bde568eede0f0d6e063bc",
+    "filesize": 45624
+  },
+  {
+    "filename": "FTPWPP.DLL",
+    "type_lib": "{{02B5E1D0-8B7C-11D0-AD45-00AA00A219AA}}\\1.0\\0\\win32\\",
+    "version": "6.1.33.0",
+    "checksum": "b2b28745e14a41482c12d77ab43db381ae5d2454231d65f2cc24df8b9699dd41",
+    "filesize": 98960
+  },
+  {
+    "filename": "FXSCOM.DLL",
+    "type_lib": "{{87099223-C7AF-11D0-B225-00C04FB6C2F5}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "6a10c7bdc56471e0dfb46003635ad4c14c8d58a1f93198c111d7e39997a41781",
+    "filesize": 108544
+  },
+  {
+    "filename": "FXSCOMEX.DLL",
+    "type_lib": "{{2BF34C1A-8CAC-419F-8547-32FDF6505DB8}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.3624 (WinBuild.160101.0800)",
+    "checksum": "f1cc12bcc153fca48eab32188e6fc38da51d8030f79cffa4907c49e97cf22af7",
+    "filesize": 550912
+  },
+  {
+    "filename": "GDX2K351.OCX",
+    "type_lib": "{{ACA223B6-0A53-44F4-869B-9A983B5AE5A2}}\\1.0\\0\\win32\\",
+    "version": "2.00.2205",
+    "checksum": "136cbcdadb370cf8992221faeb65a15f8de923fdf6be4c0e2a773c7ff345c61a",
+    "filesize": 457793
+  },
+  {
+    "filename": "GIF89.DLL",
+    "type_lib": "{{28D47522-CF84-11D1-834C-00A0249F0C28}}\\1.0\\0\\win32\\",
+    "version": "1, 1, 0, 1",
+    "checksum": "c6084d2d2fd70d623dd3013b33bc675feb09b2f5e8b73d19a34419b9d7d84529",
+    "filesize": 44544
+  },
+  {
+    "filename": "GRIDDTC.OCX",
+    "type_lib": "{{A3054039-F10A-11D1-B901-00104B26B409}}\\1.0\\0\\win32\\",
+    "version": "6.00.8141",
+    "checksum": "2f3848fcca8d446b94fcdeac9e52667d0343189c1d8ce48583d12d60f11795fb",
+    "filesize": 790584
+  },
+  {
+    "filename": "GRIDMAP.OCX",
+    "type_lib": "{{35AE4004-4194-4243-92AA-351BB7239539}}\\1.0\\0\\win32\\",
+    "version": "5, 0, 0, 3",
+    "checksum": "65293604b2f7d9b9a9946724a1e0769ac4454453dfdb4ff491db1710e778159f",
+    "filesize": 165152
+  },
+  {
+    "filename": "HELPPANEPROXY.DLL",
+    "type_lib": "{{8cec5857-07a1-11d9-b15e-000d56bfe6ee}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "9d62fc3ed9fcef8904c52a4f34650605b7945c855df6323a8ee1cec01809ff2c",
+    "filesize": 55296
+  },
+  {
+    "filename": "HHCTRL.OCX",
+    "type_lib": "{{ADB880A2-D8FF-11CF-9377-00AA003B7A11}}\\4.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "2b0c6b6227d5b7ce3e2d691067fa8164e519a20841c7680d7ec36129f225a288",
+    "filesize": 631296
+  },
+  {
+    "filename": "HNETCFG.DLL",
+    "type_lib": "{{43E734CA-043D-4A70-9A2C-A8F254063D91}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "0a15c5497d001e139060199f47a769b855230ab82f98b2779bafc4e2d5c1f5a0",
+    "filesize": 476656
+  },
+  {
+    "filename": "HOOK-MENU-2.OCX",
+    "type_lib": "{{B389CD47-E20E-4D96-A4EC-576F2B1F43BF}}\\1.0\\0\\win32\\",
+    "version": "1.04",
+    "checksum": "0cd04c2ab9e4a7a7900bde03694532cd604c8b1e313d352258bab1240b2ebf5b",
+    "filesize": 225280
+  },
+  {
+    "filename": "HTMUTIL.DLL",
+    "type_lib": "{{9FFB4822-0EE5-11D1-A787-0000F80272EA}}\\1.0\\0\\win32\\",
+    "version": "6.00.8152",
+    "checksum": "e3cbdff7ffab475e7e3615120a74e96d77a8adeae1ebebb54bf23074f45de435",
+    "filesize": 182226
+  },
+  {
+    "filename": "IASADS.DLL",
+    "type_lib": "{{6BC096C5-0CE6-11D1-BAAE-00C04FC2E20D}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "8ff6309db22a5ffa8fd823d768138393b7b816f5bfdbd61b496759e2dc399904",
+    "filesize": 61952
+  },
+  {
+    "filename": "IASDATASTORE.DLL",
+    "type_lib": "{{dfdfb4eb-32b7-4b7f-a3d4-f798f75d3a46}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "a0f38ffd4b1f029a6841dea09d51c9cf8c78513d920d1ebd308617a2925f0fcf",
+    "filesize": 64512
+  },
+  {
+    "filename": "IASHLPR.DLL",
+    "type_lib": "{{6BC096BB-0CE6-11D1-BAAE-00C04FC2E20D}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "f2377de36de34868eecd8d212b6caa6b871b523251727e24d120fda6609c8301",
+    "filesize": 84992
+  },
+  {
+    "filename": "IASNAP.DLL",
+    "type_lib": "{{6BC098A0-0CE6-11D1-BAAE-00C04FC2E20D}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "8a3e8ac84582194dd57557a83636271b2e3f79d07be7e76e50fd0cc792b0c2a3",
+    "filesize": 113664
+  },
+  {
+    "filename": "IASRAD.DLL",
+    "type_lib": "{{6BC09890-0CE6-11D1-BAAE-00C04FC2E20D}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.3037 (WinBuild.160101.0800)",
+    "checksum": "8a725d8d4468a58112c7249d70b34e9ee4679b4f663d1c439b5ecd547cee55b9",
+    "filesize": 206848
+  },
+  {
+    "filename": "IASSAM.DLL",
+    "type_lib": "{{73CA1716-D932-4015-A5DA-0B8037C24788}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "21892ccc735056e69cfd3086a8f0ab4a6a5cc301043b5eea84238de3d4fce0d6",
+    "filesize": 212992
+  },
+  {
+    "filename": "IASSVCS.DLL",
+    "type_lib": "{{6BC09690-0CE6-11D1-BAAE-00C04FC2E20D}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.3037 (WinBuild.160101.0800)",
+    "checksum": "5f59636791795ff20b53bb14bdb498f3ce16f5d9843d62d343ce2a1f28fb9269",
+    "filesize": 154112
+  },
+  {
+    "filename": "IEAWSDC.DLL",
+    "type_lib": "{{012F24C1-35B0-11D0-BF2D-0000E8D0D146}}\\1.0\\0\\win32\\",
+    "version": "15.0.4420.0",
+    "checksum": "50fc697b0619a9258156a7d45c274223162cb22ae3a1a20df79715f2b2a8f445",
+    "filesize": 339248
+  },
+  {
+    "filename": "IEFRAME.DLL",
+    "type_lib": "{{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}}\\1.1\\0\\win32\\",
+    "version": "11.00.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "176aee651542c31cdb70af4e2fc71b3b1ab5bd2e1e9a34365d1b646368660f6a",
+    "filesize": 6641152
+  },
+  {
+    "filename": "IEPEERS.DLL",
+    "type_lib": "{{7E8BC440-AEFF-11D1-89C2-00C04FB6BFC4}}\\1.0\\0\\win32\\",
+    "version": "11.00.26100.1 (WinBuild.160101.0800)",
+    "checksum": "c0cc04dbaa99c160c10f778050d2a1c27ee1565df38433b6df684f9d6b89f0a7",
+    "filesize": 128512
+  },
+  {
+    "filename": "IISVERMG.DLL",
+    "type_lib": "{{736BFA21-B74F-439D-A701-1173F72771F7}}\\1.0\\0\\win32\\",
+    "version": "10.0.26013.1000 (WinBuild.160101.0800)",
+    "checksum": "69392f1175f6baf611f825d2086d2b06424953c5fa9c750b02060834e066a4ed",
+    "filesize": 52256
+  },
+  {
+    "filename": "IMEFILES.DLL",
+    "type_lib": "{{06af565f-771e-47a3-a501-f41b3e8bdac9}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "f5f8ce5b654f3adb689cf6db73f070ab64f5933c140c952bb24fbdb4502e455e",
+    "filesize": 189312
+  },
+  {
+    "filename": "IMJKAPI.DLL",
+    "type_lib": "{{da524058-bdb4-482a-997a-338ae04d7156}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.3624 (WinBuild.160101.0800)",
+    "checksum": "2a2d8b1c510b3d8f2a7a00956526b47b5bf98337e87595320d061604a086632e",
+    "filesize": 209336
+  },
+  {
+    "filename": "INETCOMM.DLL",
+    "type_lib": "{{1C82EAD8-508E-11D1-8DCF-00C04FB951F9}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "edc9990ced94e3f520e27728dd7f201caa75f8db41fd24049bc0b566f814a41d",
+    "filesize": 934912
+  },
+  {
+    "filename": "INKDIV.DLL",
+    "type_lib": "{{56D04F5D-964F-4DBF-8D23-B97989E53418}}\\1.5\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "baab774a84cb473e4bf71486647261d74f06ce33dea79a10320537dc3128978a",
+    "filesize": 338432
+  },
+  {
+    "filename": "INKED.DLL",
+    "type_lib": "{{8405D0DF-9FDD-4829-AEAD-8E2B0A18FEA4}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "a2df5252e80e46e63370859a10ef0b84b3328eaa9113803bbf4fa7fb6ade7aac",
+    "filesize": 229888
+  },
+  {
+    "filename": "INKOBJ.DLL",
+    "type_lib": "{{7D868ACD-1A5D-4A47-A247-F39741353012}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "bcc80480205d2b77efb3d3580693a3e14467d136e65e7bab2669db26d4419f40",
+    "filesize": 1561088
+  },
+  {
+    "filename": "INSREPIM.DLL",
+    "type_lib": "{{D24FD497-BEBC-11D1-8CB9-00C04FC2F51A}}\\1.0\\0\\win32\\",
+    "version": "6.0.8161.0",
+    "checksum": "dccf231cf17787ec7b12109a2e6cc8657a705a71df382d60d8243db95e47ec61",
+    "filesize": 41744
+  },
+  {
+    "filename": "ISDESIGN.OCX",
+    "type_lib": "{{C1FB3754-D4B1-11CF-9B9E-00A0C90DCBF8}}\\1.0\\0\\win32\\",
+    "version": "5.0.7009",
+    "checksum": "fec87de721283ede101c279a53e4d671837ef3ef007627ddf51891c54fe4b55e",
+    "filesize": 200736
+  },
+  {
+    "filename": "LISTADOSERVERS.OCX",
+    "type_lib": "{{AF8B3B7F-5EEF-45C5-8DF5-C063AA68663C}}\\2.0\\0\\win32\\",
+    "version": "1.00",
+    "checksum": "7112746a94e477f45c80a1736bb63246d6b637cf6873b5459356a0172ad39aea",
+    "filesize": 61440
+  },
+  {
+    "filename": "LIVEX_8500.OCX",
+    "type_lib": "{{3F5913F3-36BC-4902-925F-1DF63BCAEB57}}\\1.0\\0\\win32\\",
+    "version": "17, 10, 0, 0",
+    "checksum": "36ff179360b438a7222db7c063fa7be6a563dfaa9fd1a60a558dc1a0d6cacef0",
+    "filesize": 1605632
+  },
+  {
+    "filename": "LOCATIONAPI.DLL",
+    "type_lib": "{{4486DF98-22A5-4F6B-BD5C-8CADCEC0A6DE}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "189a7e973d321e4066648330a1c66f60acfccf0c78926d9f92eb98ee3452ee94",
+    "filesize": 333312
+  },
+  {
+    "filename": "LOCATIONFRAMEWORK.DLL",
+    "type_lib": "{{B25DF0F7-46D8-4E0E-A4BF-A0912018BC40}}\\1.0\\0\\win32\\",
+    "version": "File not found",
+    "checksum": "File not found",
+    "filesize": 0
+  },
+  {
+    "filename": "MAPCTRL.OCX",
+    "type_lib": "{{7FCB5731-C983-489F-B980-28C307717A62}}\\1.0\\0\\win32\\",
+    "version": "File not found",
+    "checksum": "File not found",
+    "filesize": 0
+  },
+  {
+    "filename": "MBAEAPI.DLL",
+    "type_lib": "{{1878A0BC-B9A1-4BD0-B67E-BE35EDE35A96}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "a1c2a5602b6c3abba66251648bb0e946fbc8dbc899e3b2afc6d7f0f52a736489",
+    "filesize": 515584
+  },
+  {
+    "filename": "MBPRGBAR.OCX",
+    "type_lib": "{{BF3128D8-55B8-11D4-8ED4-00E07D815373}}\\1.0\\0\\win32\\",
+    "version": "1.00",
+    "checksum": "e20c60cafd78a59233a8b743937559c61c55047e4cfca1cf141f25b523555fdd",
+    "filesize": 106496
+  },
+  {
+    "filename": "MCI32.OCX",
+    "type_lib": "{{C1A8AF28-1257-101B-8FB0-0020AF039CA3}}\\1.1\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "07bf28692ac79fd7e7de7cff2291ea945bb5a60d427ae2fd7a19dde738b67438",
+    "filesize": 198456
+  },
+  {
+    "filename": "MDT2DB.DLL",
+    "type_lib": "{{E9B0E6DA-811C-11D0-AD51-00A0C90F5739}}\\1.0\\0\\win32\\",
+    "version": "2.00.00.8171",
+    "checksum": "41a35463216ad3d74593b218124278794059944c3e0a207e39f59c595214142e",
+    "filesize": 652848
+  },
+  {
+    "filename": "MDT2DBNS.DLL",
+    "type_lib": "{{CFC2CAA3-DC5D-11D0-ADAD-00A0C90F5739}}\\1.0\\0\\win32\\",
+    "version": "2.00.00.8171",
+    "checksum": "742ca5e272f8da4a210c1e83f66ddf375f0e646c69b3d2967f81b68aa72c16cb",
+    "filesize": 352672
+  },
+  {
+    "filename": "MDT2DD.DLL",
+    "type_lib": "{{B0406341-B0C5-11d0-89A9-00A0C9054129}}\\1.0\\0\\win32\\",
+    "version": "2.00.00.8171",
+    "checksum": "16d994f4b379cf24c0716a86a64da13f442bb018e711eb79493facb4eba7aa68",
+    "filesize": 457904
+  },
+  {
+    "filename": "MDT2DF.DLL",
+    "type_lib": "{{105B80D0-95F1-11D0-B0A0-00AA00BDCB5C}}\\2.0\\0\\win32\\",
+    "version": "2.00.00.8171",
+    "checksum": "d0c7b97acb7989dc20eb8fc1313a0585fb1a0cc03d13f3fc1dd429ab7cad4b93",
+    "filesize": 608528
+  },
+  {
+    "filename": "MDT2FW.DLL",
+    "type_lib": "{{0EE708F0-94B4-11D0-9F66-00A0C9055CAC}}\\1.0\\0\\win32\\",
+    "version": "2.00.00.8171",
+    "checksum": "635bfd9f3b9b6f757ed465a9838cac774f4fad7b20a3a7e3ec482c4afd1f2319",
+    "filesize": 565304
+  },
+  {
+    "filename": "MDT2SD.DLL",
+    "type_lib": "{{5AB4FED5-EF2B-11D0-B681-006097C9A884}}\\1.0\\0\\win32\\",
+    "version": "2.00.00.8171",
+    "checksum": "e12843d138aefc7b537a582443fc5aa6bd156da0f485b7161320d62313951f81",
+    "filesize": 491376
+  },
+  {
+    "filename": "MERGEMOD.DLL",
+    "type_lib": "{{0ADDA82F-2C26-11D2-AD65-00A0C9AF11A6}}\\2.0\\0\\win32\\",
+    "version": "5.0.19041.685 (WinBuild.160101.0800)",
+    "checksum": "d4f4b461e3b2e097636a74bc6b34882a55633fc421137583e07f29f240f132cc",
+    "filesize": 159192
+  },
+  {
+    "filename": "MICAUT.DLL",
+    "type_lib": "{{928CEF0C-5A84-48AC-BF37-C5C21039B83A}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "c6fd4e37ec93a2a7b2cd558b364803918edc00e25ebfa9decc100a1d46811f2d",
+    "filesize": 1488896
+  },
+  {
+    "filename": "MICROSOFT.TEAMS.ADDINLOADER.DLL",
+    "type_lib": "{{C0529B10-073A-4754-9BB0-72325D80D122}}\\1.0\\0\\win32\\",
+    "version": "File not found",
+    "checksum": "File not found",
+    "filesize": 0
+  },
+  {
+    "filename": "MICROSOFT.UEV.OFFICE2013CUSTOMACTIONS.DLL",
+    "type_lib": "{{AB4D3FA3-21B9-443C-886E-FC4A417D3E4D}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "3f421eda9bc0d7dd6ad31a212209b7c785ab0cd1e768ac813a767d5973c1a759",
+    "filesize": 399360
+  },
+  {
+    "filename": "MIGV2.DLL",
+    "type_lib": "{{CD3386A5-DBB9-11D1-B58F-00C04FB68DF3}}\\b.0\\0\\win32\\",
+    "version": "6.00.8161",
+    "checksum": "204634cfd1d81f2ce8247388ec955fbf44c2bd6f6aa40c5d72f09547187a8043",
+    "filesize": 229376
+  },
+  {
+    "filename": "MMCNDMGR.DLL",
+    "type_lib": "{{43136EB0-D36C-11CF-ADBC-00AA00A80033}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "3786dec22d858f046adf535e41e2072e791500d763d2fd8caada6f4b36537fb0",
+    "filesize": 2068480
+  },
+  {
+    "filename": "MMDTC.DLL",
+    "type_lib": "{{2F5BD3B2-5F75-11D1-8C4C-00A0C959BC0A}}\\1.0\\0\\win32\\",
+    "version": "6.00.8177",
+    "checksum": "fbccf49f6b8e72f63a45fb053bbb056e30bc5e46cced36a35f39983746b8edba",
+    "filesize": 197104
+  },
+  {
+    "filename": "MP4MUX.DLL",
+    "type_lib": "{{01C87765-FA54-45C5-ABB4-3C748246AE77}}\\1.0\\0\\win32\\",
+    "version": "1.0.0.488",
+    "checksum": "f41841f0a65c031311938e76796a61537ad39338ac5965ab3929c55bd2d22bf0",
+    "filesize": 128496
+  },
+  {
+    "filename": "MPVIS.DLL",
+    "type_lib": "{{C58F1580-0DF3-401C-93B1-2D9DDA61CF04}}\\1.0\\0\\win32\\",
+    "version": "12.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "e17c65c72ffe8629eab5f10d14706072cd63d2691d22a0cf524ca65240c733bc",
+    "filesize": 208896
+  },
+  {
+    "filename": "MSAATEXT.DLL",
+    "type_lib": "{{150E2D7A-DAC1-4582-947D-2A8FD78B82CD}}\\1.0\\0\\win32\\",
+    "version": "2.0.010413 (WinBuild.160101.0800)",
+    "checksum": "82e47c30f4df812772e5fb9e74a7f072c289f75f636aa0cc6d8577bb433b957c",
+    "filesize": 180224
+  },
+  {
+    "filename": "MSADCO.DLL",
+    "type_lib": "{{BD96C556-65A3-11D0-983A-00C04FC29E30}}\\1.5\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "9cf18f06d3f34abd6f81304a4e21d4e4af07f3dd547c8d6bde1ca22bd051ff4e",
+    "filesize": 218624
+  },
+  {
+    "filename": "MSADDNDR.DLL",
+    "type_lib": "{{AC0714F2-3D04-11D1-AE7D-00A0C90F26F4}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "ed8d2cbf59e1e916a8f11580f91c3c20cb78114e0c4e84234d2ef4194e491258",
+    "filesize": 86016
+  },
+  {
+    "filename": "MSADO10.DLL",
+    "type_lib": "{{00000200-0000-0010-8000-00AA006D2EA4}}\\1.0\\0\\win32\\",
+    "version": "File not found",
+    "checksum": "File not found",
+    "filesize": 0
+  },
+  {
+    "filename": "MSADO15.DLL",
+    "type_lib": "{{B691E011-1797-432E-907A-4D8C69339129}}\\6.1\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "80a2b4680573baeb4df03c455a3f99962a9b37c13e7169e51d0ede1ef1f10b06",
+    "filesize": 1098240
+  },
+  {
+    "filename": "MSADODC.OCX",
+    "type_lib": "{{67397AA1-7FB1-11D0-B148-00A0C922E820}}\\6.0\\0\\win32\\",
+    "version": "6.01.9782",
+    "checksum": "fc3c36577a7f1487247131933d3be33dacf9292d2a7e790e53c10d403f45fd20",
+    "filesize": 131856
+  },
+  {
+    "filename": "MSADOMD.DLL",
+    "type_lib": "{{22813728-8BD3-11D0-B4EF-00A0C9138CA4}}\\6.0\\0\\win32\\",
+    "version": "10.0.26100.3912 (WinBuild.160101.0800)",
+    "checksum": "e50748134be9973ed4229b66eca5e55591032ea78bbdf828be035e252526d5b3",
+    "filesize": 294400
+  },
+  {
+    "filename": "MSADOR15.DLL",
+    "type_lib": "{{00000300-0000-0010-8000-00AA006D2EA4}}\\6.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "13f882e04f57759c9d1081569ce89680aad7f95ba010b70be6d0e07851ed2cdc",
+    "filesize": 43520
+  },
+  {
+    "filename": "MSADOX.DLL",
+    "type_lib": "{{00000600-0000-0010-8000-00AA006D2EA4}}\\6.0\\0\\win32\\",
+    "version": "10.0.26100.3037 (WinBuild.160101.0800)",
+    "checksum": "8e69c46c4a12c7bb49667c1552d3221a474a6d0e3b045f78f47b7a6cf9c09a0e",
+    "filesize": 312832
+  },
+  {
+    "filename": "MSBIND.DLL",
+    "type_lib": "{{56BF9020-7A2F-11D0-9482-00A0C91110ED}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "6120a0e85b95a02a8c8484f98936ee8ddf70f612554f3a7f1bd340b41aa42f62",
+    "filesize": 77824
+  },
+  {
+    "filename": "MSCAL.OCX",
+    "type_lib": "{{8E27C92E-1264-101C-8A2F-040224009C02}}\\7.0\\0\\win32\\",
+    "version": "8.0.0.5007",
+    "checksum": "d5c99a9c8eb5cc4d4fc3d894c3e4857d00fc71e026fdd974af2d6763e9663d9b",
+    "filesize": 89600
+  },
+  {
+    "filename": "MSCHRT20.OCX",
+    "type_lib": "{{65E121D4-0C60-11D2-A9FC-0000F8754DA1}}\\2.0\\0\\win32\\",
+    "version": "6.00.8177",
+    "checksum": "fda061f783ec3e0dae216d8ebf051277a2ba1133d1f684da54a2147903ad1809",
+    "filesize": 1008432
+  },
+  {
+    "filename": "MSCOMCT2.OCX",
+    "type_lib": "{{86CF1D34-0C5F-11D2-A9FC-0000F8754DA1}}\\2.0\\0\\win32\\",
+    "version": "6.00.8804",
+    "checksum": "2b7a1f905486736eda8b51add1bc2590c2a6d9d5a9ab7565335d989f39c0eb8e",
+    "filesize": 647872
+  },
+  {
+    "filename": "MSCOMCTL.OCX",
+    "type_lib": "{{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}}\\2.0\\0\\win32\\",
+    "version": "6.01.9834",
+    "checksum": "45b6eef5bbf223cf8ff78f5014b68a72f0bc2cceaed030dece0a1abacf88f1f8",
+    "filesize": 1070152
+  },
+  {
+    "filename": "MSCOMM32.OCX",
+    "type_lib": "{{648A5603-2C6E-101B-82B6-000000000014}}\\1.1\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "51a1d6812e445c26c71465e2709e6d1ad587f8513002d662cd160f424f48b37c",
+    "filesize": 103744
+  },
+  {
+    "filename": "MSDATGRD.OCX",
+    "type_lib": "{{CDE57A40-8B86-11D0-B3C6-00A0C90AEA82}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "1582418d27088049bb8ce628f87f9243f8e3c949508a69a509f2462de9db943b",
+    "filesize": 260920
+  },
+  {
+    "filename": "MSDATLST.OCX",
+    "type_lib": "{{F0D2F211-CCB0-11D0-A316-00AA00688B10}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "f1d7920db6e7cd6cd4db99650f6d92c5827d4d2bc5edb782ac9767e9124ebf6f",
+    "filesize": 232248
+  },
+  {
+    "filename": "MSDATOBJ.DLL",
+    "type_lib": "{{35935951-06D7-11D2-8D70-00A0C98B28E2}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "0dfc6c2f052ff6ca2124b904ba5ec2396fbd1c9abfa0fc9721b95291a9820236",
+    "filesize": 696320
+  },
+  {
+    "filename": "MSDATREP.OCX",
+    "type_lib": "{{5C8CED40-8909-11D0-9483-00A0C91110ED}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "a6075b4984e1bfc826f44eb194a3271c31dee3b18fc5cefeea823320970df103",
+    "filesize": 187712
+  },
+  {
+    "filename": "MSDBRPT.DLL",
+    "type_lib": "{{78E93843-85FD-11D0-8487-00A0C90DC8A9}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "32bc8d4509bf2f187537560153f9d51f7ed9e76e6f399f6c41b0a2adc2be98fd",
+    "filesize": 311296
+  },
+  {
+    "filename": "MSDBRPTR.DLL",
+    "type_lib": "{{642AC760-AAB4-11D0-8494-00A0C90DC8A9}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "1781a851d929e1f08c6010f5d7be45db092879d50c33abee89f828e1b686b6bf",
+    "filesize": 299008
+  },
+  {
+    "filename": "MSDDS.DLL",
+    "type_lib": "{{C795D2F0-7776-11D8-9070-00065B840D9C}}\\2.0\\0\\win32\\",
+    "version": "16.0.34930.59 built by: D16.11",
+    "checksum": "52639eeba688293ae1e10c028568f7a648c6f782a024cb653ac65ceb15267a7e",
+    "filesize": 872992
+  },
+  {
+    "filename": "MSDDSF.DLL",
+    "type_lib": "{{D1E5C5AE-21FB-11D9-ADCD-00065B840D9C}}\\2.0\\0\\win32\\",
+    "version": "16.0.34930.59 built by: D16.11",
+    "checksum": "8c11643f7d40a02adcb09411d9c12f9f7f324c6bcbeff838446b033b97d66b84",
+    "filesize": 603072
+  },
+  {
+    "filename": "MSDDSLM.DLL",
+    "type_lib": "{{77D2C909-7779-11D8-9070-00065B840D9C}}\\1.0\\0\\win32\\",
+    "version": "16.0.34930.59 built by: D16.11",
+    "checksum": "495755bbeca736e18d61bf4fe5be8e0bfb90cf3dce40b268820b0a76cea08371",
+    "filesize": 312864
+  },
+  {
+    "filename": "MSFEEDS.DLL",
+    "type_lib": "{{9CDCD9C9-BC40-41C6-89C5-230466DB0BD0}}\\2.0\\0\\win32\\",
+    "version": "11.00.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "c771beeed61def25f3d7ae83707a07fab9449776b4c91be56a840ee20640ca24",
+    "filesize": 683008
+  },
+  {
+    "filename": "MSFLXGRD.OCX",
+    "type_lib": "{{5E9E78A0-531B-11CF-91F6-C2863C385E30}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "a9cbf98dc48a5de272a5e995e3160864994163de592ef453bf935ed574509501",
+    "filesize": 244024
+  },
+  {
+    "filename": "MSHTMLED.DLL",
+    "type_lib": "{{3050F4E0-98B5-11CF-BB82-00AA00BDCE0B}}\\1.0\\0\\win32\\",
+    "version": "11.00.26100.2454 (WinBuild.160101.0800)",
+    "checksum": "2e079272c64c0d9e68d5a619dfde6dbdffa349750150806c3e386723f55eb86d",
+    "filesize": 80896
+  },
+  {
+    "filename": "MSHTMPGR.DLL",
+    "type_lib": "{{90290CCA-F27D-11D0-8031-00C04FB6C701}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "1bfbba9896bcc9c65d8558eeebdee6e5b93e2167434bcf21725ca10eb6ea24de",
+    "filesize": 102400
+  },
+  {
+    "filename": "MSI.DLL",
+    "type_lib": "{{000C1092-0000-0000-C000-000000000046}}\\1.0\\409\\win32\\",
+    "version": "5.0.26100.6584",
+    "checksum": "51305eba677ec13a13d355b35b164333adefa89be27a39e36ac52c14d37a4a41",
+    "filesize": 3442064
+  },
+  {
+    "filename": "MSINET.OCX",
+    "type_lib": "{{48E59290-9880-11CF-9754-00AA00C00908}}\\1.0\\0\\win32\\",
+    "version": "6.01.9816",
+    "checksum": "b1212253d0c2b96dbdc6985b93338be288b0c8d827481f9c607dde5bdfdbfc6b",
+    "filesize": 136008
+  },
+  {
+    "filename": "MSJRO.DLL",
+    "type_lib": "{{AC3B8B4C-B6CA-11D1-9F31-00C04FC29D52}}\\2.6\\0\\win32\\",
+    "version": "10.0.26100.3912 (WinBuild.160101.0800)",
+    "checksum": "573090278719cb89b7d6e9dd64141b46f5dfca23bdf80f3cdc7c690fcc558f4a",
+    "filesize": 99840
+  },
+  {
+    "filename": "MSJTES40.DLL",
+    "type_lib": "{{2358C810-62BA-11D1-B3DB-00600832C573}}\\4.0\\0\\win32\\",
+    "version": "10.0.26100.5074",
+    "checksum": "bdb6386c558bed641397f0aa70de902fd75ad283246d2bd106f0d52dfbebdbcb",
+    "filesize": 163840
+  },
+  {
+    "filename": "MSMAPI32.OCX",
+    "type_lib": "{{20C62CAE-15DA-101B-B9A8-444553540000}}\\1.1\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "60e841057cbbf33e10c5169cc328330d11838636002670cb9e8a7a09bab321ab",
+    "filesize": 137000
+  },
+  {
+    "filename": "MSMASK32.OCX",
+    "type_lib": "{{C932BA88-4374-101B-A56C-00AA003668DC}}\\1.1\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "90b6da8741ba874c2d4a908a6016502d907798d471c66dd7cadeba14f11fcab7",
+    "filesize": 166200
+  },
+  {
+    "filename": "MSO.DLL",
+    "type_lib": "{{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}}\\2.7\\0\\win32\\",
+    "version": "16.0.19127.20154",
+    "checksum": "6ac0317b2503392df9d7786e751262a87fa4482e9739f3176576c8cb81748584",
+    "filesize": 29663088
+  },
+  {
+    "filename": "MSO97RT.DLL",
+    "type_lib": "{{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}}\\2.0\\0\\win32\\",
+    "version": "8.0.4328",
+    "checksum": "2ac11b0ee5e980e4b7a9722f4d8a0c9299e23cc273010f0ff00411724b579691",
+    "filesize": 3673360
+  },
+  {
+    "filename": "MSOUTL32.OCX",
+    "type_lib": "{{BE4F3AC8-AEC9-101A-947B-00DD010F7B46}}\\1.0\\0\\win32\\",
+    "version": "1.0.2922",
+    "checksum": "e9f52b87f8c84a7c0cdb4181dc42a984d347be69d17d52dac6bc274fadabe698",
+    "filesize": 84000
+  },
+  {
+    "filename": "MSRDC20.OCX",
+    "type_lib": "{{F6125AB1-8AB1-11CE-A77F-08002B2F4E98}}\\2.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "e6a36e332aa11d0c17b18a20cebdaa9fd42a299fe33a187c5d1e4239e5b954ea",
+    "filesize": 176440
+  },
+  {
+    "filename": "MSRDO20.DLL",
+    "type_lib": "{{EE008642-64A8-11CE-920F-08002B369A33}}\\2.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "7095a2371924e0f67fff55add359cad3081e7c2c85fa27cdcb7c710b7bd5ac90",
+    "filesize": 393216
+  },
+  {
+    "filename": "MSRDPWEBACCESS.DLL",
+    "type_lib": "{{3EA49599-AF67-4142-B379-C54786F112B2}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "d95638ac0d390537307bc16f1c100e917a18533f396882750c8c17d73627fbb1",
+    "filesize": 52224
+  },
+  {
+    "filename": "MSSCRIPT.OCX",
+    "type_lib": "{{0E59F1D2-1FBE-11D0-8FF2-00A0D10038BC}}\\1.0\\0\\win32\\",
+    "version": "1.0.10240.16384",
+    "checksum": "0f719783d8f2a25906b67caa541874616b9e36ca62b9291097da4fa4d09e5a81",
+    "filesize": 103936
+  },
+  {
+    "filename": "MSSITLB.DLL",
+    "type_lib": "{{9E175B61-F52A-11D8-B9A5-505054503030}}\\1.0\\0\\win32\\",
+    "version": "7.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "cd918324d87f50d907dc02a2b32451b511de13d8c8331b996df5cc328fce22aa",
+    "filesize": 126976
+  },
+  {
+    "filename": "MSSRCH.DLL",
+    "type_lib": "{{9E175B60-F52A-11D8-B9A5-505054503030}}\\1.0\\0\\win32\\",
+    "version": "7.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "2577f78a61edbeb39997dbaae9e4fdfd42929bebbdc4ff9d7c0b246889455530",
+    "filesize": 3059712
+  },
+  {
+    "filename": "MSSTDFMT.DLL",
+    "type_lib": "{{6B263850-900B-11D0-9484-00A0C91110ED}}\\1.0\\0\\win32\\",
+    "version": "6.00.8804",
+    "checksum": "b0980fb78f801a50cc7c5cfb5b653d30c650789f5443a536f05a518dcf4f59a7",
+    "filesize": 118784
+  },
+  {
+    "filename": "MSTSCAX.DLL",
+    "type_lib": "{{8C11EFA1-92C3-11D1-BC1E-00C04FA31489}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "98d756f1b3cff40e2379d7df02bd8e853ec5386c86a6e260e516ff0843700f30",
+    "filesize": 8314880
+  },
+  {
+    "filename": "MSTTSENGINE_ONECORE.DLL",
+    "type_lib": "{{5F7209DB-16C5-45AE-A67D-60B8585100CA}}\\a.0\\0\\win32\\",
+    "version": "10.3.21207.0",
+    "checksum": "f78446600e800c6465db54c5d3cfa9510517f5c358cc1bc50fa47f7566d6fe1c",
+    "filesize": 1656320
+  },
+  {
+    "filename": "MSTTSENGINE.DLL",
+    "type_lib": "{{EB2114C0-CB02-467A-AE4D-2ED171F05E6A}}\\a.0\\0\\win32\\",
+    "version": "11.0.58.18",
+    "checksum": "80f3a3616a905fd1290f3adf716bf5aaec99f87981da809c0aee45fb9682727c",
+    "filesize": 823192
+  },
+  {
+    "filename": "MSVBVM50.DLL",
+    "type_lib": "{{000204EF-0000-0000-C000-000000000046}}\\5.0\\9\\win32\\",
+    "version": "05.02.8244 (SP2)",
+    "checksum": "6d360fb1674e5e738a8e455f5abd410b2796b076692245fe3b1dc00547b055a0",
+    "filesize": 1355776
+  },
+  {
+    "filename": "MSVBVM60.DLL",
+    "type_lib": "{{000204EF-0000-0000-C000-000000000046}}\\6.0\\9\\win32\\",
+    "version": "6.00.9848",
+    "checksum": "898288bd3b21d0e7d5f406df2e0b69a5bbfa4f241baf29a2cdf8a3cf4d4619f2",
+    "filesize": 1436032
+  },
+  {
+    "filename": "MSVIDCTL.DLL",
+    "type_lib": "{{B0EDF154-910A-11D2-B632-00C04F79498E}}\\1.0\\0\\win32\\",
+    "version": "6.5.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "2685ea869bec1d9997239062cf4c50ce12286e777f3d94e3572910c7b335b3df",
+    "filesize": 2650112
+  },
+  {
+    "filename": "MSWCRUN.DLL",
+    "type_lib": "{{198887E2-AC76-11D0-A77C-00A024A55AB0}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "436a198fb03f383b917380f5dd7e5d7822f2170ad706a99cc27b89c5dfb0cc1b",
+    "filesize": 253952
+  },
+  {
+    "filename": "MSWINSCK.OCX",
+    "type_lib": "{{248DD890-BB45-11CF-9ABC-0080C7E7B78D}}\\1.0\\0\\win32\\",
+    "version": "6.01.9817",
+    "checksum": "abe67b995d2c3f3898a84fe877ea1913658eaacf9841774204353edf5945674c",
+    "filesize": 126800
+  },
+  {
+    "filename": "MSWMDM.DLL",
+    "type_lib": "{{6EC6C744-355F-11D3-8470-00C04F79DBC0}}\\1.0\\0\\win32\\",
+    "version": "12.0.26100.2308",
+    "checksum": "02471dc8335749e8ad4a5fe8bad691da5f94e2de2bcf984a38591acb750f383a",
+    "filesize": 385024
+  },
+  {
+    "filename": "MSXML3.DLL",
+    "type_lib": "{{F5078F18-C551-11D3-89B9-0000F81FE221}}\\3.0\\0\\win32\\",
+    "version": "8.110.26100.5074",
+    "checksum": "47155cd2049f2a7c94567bb807753b3946f906d650aa76dcd292b76a99e72084",
+    "filesize": 1371648
+  },
+  {
+    "filename": "MSXML6.DLL",
+    "type_lib": "{{F5078F18-C551-11D3-89B9-0000F81FE221}}\\6.0\\0\\win32\\",
+    "version": "6.30.26100.5074",
+    "checksum": "ab9f32fc22d64b2eb3da84fe38d5737be1e0aad144e9c9e5cdafdd3cc9c68186",
+    "filesize": 1820752
+  },
+  {
+    "filename": "MZENGINE3.DLL",
+    "type_lib": "{{C7EB1635-D413-4380-A6E2-3363151A96C1}}\\1.0\\0\\win32\\",
+    "version": "1.0.14.0",
+    "checksum": "11b45e1f3d705e8c1ce1cc4d33ba328b5ca249bd024e98348b58f79346b023b3",
+    "filesize": 65536
+  },
+  {
+    "filename": "NDFAPI.DLL",
+    "type_lib": "{{11DD5EA9-F8DB-4F6E-BF7C-6AADBA404A3D}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "07b31c45ff364615a2f882d3d2488a7889f2c30e27a630622651b11deaf977fe",
+    "filesize": 276480
+  },
+  {
+    "filename": "NETCENTER.DLL",
+    "type_lib": "{{122F1BB4-2723-4ac2-A36A-16BB9E8B99A6}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "04c0a5989e31d3c084add8e6b5d856cd81f61a6f8c94cf4b728b3be10dec8d82",
+    "filesize": 241664
+  },
+  {
+    "filename": "NETPROFM.DLL",
+    "type_lib": "{{DCB00D01-570F-4A9B-8D69-199FDBA5723B}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "512f7546c4fb220ca660c848134a8090c22448480907ae67a3bdc7a274b4edb7",
+    "filesize": 438272
+  },
+  {
+    "filename": "ODBCCONF.DLL",
+    "type_lib": "{{54AF9343-1923-11D3-9CA4-00C04F72C514}}\\2.32\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "c6de2ecefc82b86b8263090d477a939597d7aa1c77711e84a9436d844561c244",
+    "filesize": 24576
+  },
+  {
+    "filename": "OLEACC.DLL",
+    "type_lib": "{{1EA4DBF0-3C3B-11CF-810C-00AA00389B71}}\\1.1\\0\\win32\\",
+    "version": "7.2.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "98833054479146dbf9c9ba64aca0ae101b97c1d4e8f09d4073de5a8d86816ed6",
+    "filesize": 365568
+  },
+  {
+    "filename": "OLEDB32.DLL",
+    "type_lib": "{{2206CEB0-19C1-11D1-89E0-00C04FD7A829}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "8e7ad4afa0ce262368c80d72eb8a3dadf7cabffe090143664f31688ff23ec8b2",
+    "filesize": 834048
+  },
+  {
+    "filename": "OLEPRN.DLL",
+    "type_lib": "{{7586B340-EC08-11D0-A466-00C04FC30DF6}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "ea07f1dc8f90d602cf5ac860970842c0ed6fb2147973006b244b4365392c9f86",
+    "filesize": 196608
+  },
+  {
+    "filename": "PDADDIN.DLL",
+    "type_lib": "{{905F5470-EB94-11D1-AB0E-00AA00BDD685}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "ccc307fbf2306170988507a615919fb7e3893ca04a54449b78e535da3d096951",
+    "filesize": 57344
+  },
+  {
+    "filename": "PDFMAKERAPI.DLL",
+    "type_lib": "{{CA3BD6BE-0618-4BD6-AF6F-035032DB04B1}}\\1.0\\0\\win32\\",
+    "version": "23.1.20093.0",
+    "checksum": "8938690c3c9ba98630c9a762ea96803c86f5558afbe62006d7e3f2312ccc5232",
+    "filesize": 298960
+  },
+  {
+    "filename": "PDFMLOTUSNOTES.DLL",
+    "type_lib": "{{D20F62F7-2E67-4E05-A976-95E5CF590A57}}\\1.0\\0\\win32\\",
+    "version": "23.1.20064.0",
+    "checksum": "11575ba08cd6c0bbaa74dd7b2d9f15994f6bbcfb13ced19f2b08fc9f52b13906",
+    "filesize": 1407952
+  },
+  {
+    "filename": "PDFMOUTLOOKADDIN.DLL",
+    "type_lib": "{{9177B231-7D46-11D6-B816-00C04FC06913}}\\1.0\\0\\win32\\",
+    "version": "23.1.20064.0",
+    "checksum": "932cafae6089bfcbae446a4c7617594889733be544db0595a7ff3b0690877aab",
+    "filesize": 304080
+  },
+  {
+    "filename": "PDWIZARD.OCX",
+    "type_lib": "{{0DDF3B5A-E692-11D1-AB06-00AA00BDD685}}\\2.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "24e42d6d53350b2b682d137c9974b4abf74c4cdd83680cc377543409ea672cfd",
+    "filesize": 1647648
+  },
+  {
+    "filename": "PGMR101.OCX",
+    "type_lib": "{{11D80594-533C-11D4-B97E-004005F9CBA4}}\\1.0\\0\\win32\\",
+    "version": "1, 0, 0, 1",
+    "checksum": "1ca1221f142240fc9a4a0d2758065dd2dec2a631c1ae94b3d23289c811107356",
+    "filesize": 176128
+  },
+  {
+    "filename": "PHOTOACQ.DLL",
+    "type_lib": "{{00F25AE8-3625-4E34-92D4-F0918CF010EE}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "6c79fc0dd3dd18a6deab32225e6a034eba7969c42c2b0b40b909100ac3aa8a62",
+    "filesize": 1847296
+  },
+  {
+    "filename": "PICCLP32.OCX",
+    "type_lib": "{{27395F88-0C0C-101B-A3C9-08002B2F49FB}}\\1.1\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "60cfba9ce02f7e57a3542405b85ae67fce5b6c55963aad0f7f4f172c4ed01d19",
+    "filesize": 82744
+  },
+  {
+    "filename": "PLA.DLL",
+    "type_lib": "{{03837500-098B-11D8-9414-505054503030}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "c5bf9b19f259602584407b2c1b7384a32884acb7f30fb56bf6db9e22a68b8115",
+    "filesize": 1638400
+  },
+  {
+    "filename": "POLSPELL.OCX",
+    "type_lib": "{{9E3C8244-FB0C-11D1-AA5E-008048E292F1}}\\1.0\\0\\win32\\",
+    "version": "2.0",
+    "checksum": "ed15223b80007372baa76e3814fb87e2161977bd5bf997c5f6a3ba83e7af33d9",
+    "filesize": 79872
+  },
+  {
+    "filename": "PORTABLEDEVICEAPI.DLL",
+    "type_lib": "{{1F001332-1A57-4934-BE31-AFFC99F4EE0A}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "175a2f803a78c5a18ef420a105df826d4d520a1117603906941a174de2d0ae69",
+    "filesize": 516608
+  },
+  {
+    "filename": "PORTABLEDEVICECLASSEXTENSION.DLL",
+    "type_lib": "{{C0FFA723-FF4C-4983-8565-66D78E73036E}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "64d2a15da25d1aa6090f5509f132a6e4d4f5b03390c613acbda9ff2b666743c7",
+    "filesize": 113664
+  },
+  {
+    "filename": "PORTABLEDEVICECONNECTAPI.DLL",
+    "type_lib": "{{8FE73967-AAE2-4D77-9921-0C4962631056}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "86d2a880669ca956bb2dd6f6c50af92d99b4911eabdfa5558823954004b910d8",
+    "filesize": 61440
+  },
+  {
+    "filename": "PORTABLEDEVICETYPES.DLL",
+    "type_lib": "{{2B00BA2F-E750-4BEB-9235-97142EDE1D3E}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "23cf1bc55fdd6fbf4461e5b7e0f716b348ff5ebc5407733977641e5c9dc3d869",
+    "filesize": 148992
+  },
+  {
+    "filename": "PROPPGWZ.DLL",
+    "type_lib": "{{CFB7BDA1-AC88-11D1-8F3C-00A0C9150754}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "0d5e90d75bc484fc3457316b9be3963bff57208b264775fee7d6c6dc24c29f35",
+    "filesize": 262144
+  },
+  {
+    "filename": "PRPLIST3.OCX",
+    "type_lib": "{{F066027F-EF2E-496E-B537-7DDED472E69E}}\\1.36\\0\\win32\\",
+    "version": "3.40.1291",
+    "checksum": "9f98a4fefb730b595d72b2def8567ed96f24408c69e72ce009c03aca371c3945",
+    "filesize": 1566047
+  },
+  {
+    "filename": "PSISDECD.DLL",
+    "type_lib": "{{ABBA0019-3075-11D6-88A4-00B0D0200F88}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.3912 (WinBuild.160101.0800)",
+    "checksum": "3407a1b8ea01bdd48c39441e25bf951af2e91b6fe42110e355c4a8c22514a212",
+    "filesize": 589824
+  },
+  {
+    "filename": "QEDIT.DLL",
+    "type_lib": "{{78530B68-61F9-11D2-8CAD-00A024580902}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "d76069f9696fc719e01cb9823247469472ed3e02328796c14b26328f8093bc7c",
+    "filesize": 679936
+  },
+  {
+    "filename": "QUARTZ.DLL",
+    "type_lib": "{{56A868B0-0AD4-11CE-B03A-0020AF0BA770}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "870dc3378d38f34ada25d4d2cc432efbd2b42fc4fbf077b3aae3b3da85ca1476",
+    "filesize": 1818624
+  },
+  {
+    "filename": "RACPLDLG.DLL",
+    "type_lib": "{{5190C4AF-AB0F-4235-B12F-D5A8FA3F854B}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "be9e3cc2a71bb999b07e42b400c4bcd150a8e3a4fcdc743aa0deef3b127b0f9a",
+    "filesize": 172032
+  },
+  {
+    "filename": "RACREG32.DLL",
+    "type_lib": "{{244D13BD-AFDB-11CE-85D1-00AA00695286}}\\1.2\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "054fbd3c3a31cea5c69c78c1455d19d2f3486e07428ea951f107d5dac3e58d25",
+    "filesize": 32768
+  },
+  {
+    "filename": "RDPSHARERCOM.DLL",
+    "type_lib": "{{CC802D05-AE07-4C15-B496-DB9D22AA0A84}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "8b9166c8bd7a60a9918c1aa4623f6a9d3750e3812e333ab678405eb4888f84e7",
+    "filesize": 1394176
+  },
+  {
+    "filename": "REGCTRL.DLL",
+    "type_lib": "{{ADE6CC63-3C0E-4B9B-8C59-2DF6E652990A}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "9be11c1009765793c6711ea5912a1f5e7d9b142aee0689db18265aab1102cdb4",
+    "filesize": 43520
+  },
+  {
+    "filename": "REPCDE.DLL",
+    "type_lib": "{{03FC1DAC-B3BD-11D1-B937-00C04FBBC221}}\\1.1\\0\\win32\\",
+    "version": "6.00.8161",
+    "checksum": "243452f125de4674aae7395d10f2cec1d35f7c062570fd21e52f0a88c3f740c1",
+    "filesize": 36864
+  },
+  {
+    "filename": "REPCDLG.DLL",
+    "type_lib": "{{BC2F0281-883B-11D1-B6D9-00C04FBBC221}}\\5.1\\0\\win32\\",
+    "version": "6.00.8161",
+    "checksum": "6649f92e92e4e784ec7bc5c6748633fd508c4180a82e0efb9652c7b9da535a5b",
+    "filesize": 57344
+  },
+  {
+    "filename": "REPCDLG.OCX",
+    "type_lib": "{{DA048F20-8C27-11D1-B6D9-00C04FBBC221}}\\6.1\\0\\win32\\",
+    "version": "6.00.8161",
+    "checksum": "d5816f27a965855ab4cda0e9024378e9606ab78f16c7bc064f635bf901f82726",
+    "filesize": 119848
+  },
+  {
+    "filename": "REPCOM.DLL",
+    "type_lib": "{{03FC1DB5-B3BD-11D1-B937-00C04FBBC221}}\\1.1\\0\\win32\\",
+    "version": "6.00.8161",
+    "checksum": "4aa39cbb6fb784c763aac1a3addd6384d71ebd25197660c49483315af325bf98",
+    "filesize": 36864
+  },
+  {
+    "filename": "REPDTM.DLL",
+    "type_lib": "{{AF9F32CE-00B4-11D2-A813-00805F9FDEC9}}\\1.0\\0\\win32\\",
+    "version": "6.00.8161",
+    "checksum": "89ec4c818cda1d7847b2360400b8ec933f91ddb5ff0fa25a52c925dd14a8cc06",
+    "filesize": 32768
+  },
+  {
+    "filename": "REPGEN.DLL",
+    "type_lib": "{{03FC1DD2-B3BD-11D1-B937-00C04FBBC221}}\\1.1\\0\\win32\\",
+    "version": "6.00.8161",
+    "checksum": "41983a79fadc70a69e8f935f27ee3d4e96b3c65e9cbb151a94c5b599d7c7a78f",
+    "filesize": 32768
+  },
+  {
+    "filename": "REPODBC.DLL",
+    "type_lib": "{{2DF7E2FB-60D2-11CF-920E-00AA00A1EB95}}\\2.0\\0\\win32\\",
+    "version": "6.0.8161.0",
+    "checksum": "a1a604ccbfe5204c006d06a105ed24afe2b7a326e4ec5c22a852eb5ca55c3cdd",
+    "filesize": 739328
+  },
+  {
+    "filename": "REPUMX.DLL",
+    "type_lib": "{{03FC1DDB-B3BD-11D1-B937-00C04FBBC221}}\\1.1\\0\\win32\\",
+    "version": "6.00.8161",
+    "checksum": "80a1fc9bcf29dc4000eebb9b17d63915e77d2e90b9140122c95cbdd3421ce911",
+    "filesize": 32768
+  },
+  {
+    "filename": "REPVCM.DLL",
+    "type_lib": "{{03FC1DE4-B3BD-11D1-B937-00C04FBBC221}}\\2.1\\0\\win32\\",
+    "version": "6.00.8161",
+    "checksum": "f2af89787b0ed71fb52c3725d42de06c15a943b0e74a43c021adb58dcffbea55",
+    "filesize": 606208
+  },
+  {
+    "filename": "RESEDIT.DLL",
+    "type_lib": "{{2D25A54B-AFC1-11D1-BE67-CAEC58000000}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "fe9dc826f71b0d706095b8192a96a19815c3f380cf9a42b808cd4be6fa836eff",
+    "filesize": 368640
+  },
+  {
+    "filename": "RICHED20.DLL",
+    "type_lib": "{{8CC497C9-A1DF-11CE-8098-00AA0047BE5D}}\\1.0\\0\\win32\\",
+    "version": "5.31.23.1231",
+    "checksum": "f38f060e6607ebad4900506293a4b9cde225d9185e8d381139324a233403cb02",
+    "filesize": 498688
+  },
+  {
+    "filename": "RICHTX32.OCX",
+    "type_lib": "{{3B7C8863-D78F-101B-B9B5-04021C009402}}\\1.2\\0\\win32\\",
+    "version": "6.01.9816",
+    "checksum": "e777685f35a3c84e996d8090173a1df9b97c9be194ba3660d20d62b7cbe9cf12",
+    "filesize": 218432
+  },
+  {
+    "filename": "SAPI_ONECORE.DLL",
+    "type_lib": "{{E6DA930B-BBA5-44DF-AC6F-FE60C1EDDEC8}}\\5.4\\0\\win32\\",
+    "version": "5.3.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "ab6b9f02b942a42f218dd769e6221ec06164f08a2f006aa46e6f1da0eb40675c",
+    "filesize": 4468736
+  },
+  {
+    "filename": "SAPI.DLL",
+    "type_lib": "{{C866CA3A-32F7-11D2-9602-00C04F8EE628}}\\5.4\\0\\win32\\",
+    "version": "5.3.29825.00 (WinBuild.160101.0800)",
+    "checksum": "83f7e360c54ab042b0c0671941b62de4c06e6682ee229c9be5429737fc5d65ff",
+    "filesize": 1515520
+  },
+  {
+    "filename": "SCRIPTO.DLL",
+    "type_lib": "{{FCDECE01-A39D-11D0-ABE7-00AA0064D470}}\\1.0\\0\\win32\\",
+    "version": "6.6.26100.1 (WinBuild.160101.0800)",
+    "checksum": "bb89b0a372fb74968a78beefae9d1c9cb082e1979216b1de4b1fd9856d7f1d40",
+    "filesize": 73216
+  },
+  {
+    "filename": "SCROBJ.DLL",
+    "type_lib": "{{06290C00-48AA-11D2-8432-006008C3FBFC}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074",
+    "checksum": "d961cbd488c50bb9d1a4c623ad8c3debdee1ca6dcd8aecaf3265d7f4634c5804",
+    "filesize": 197120
+  },
+  {
+    "filename": "SCRRUN.DLL",
+    "type_lib": "{{420B2830-E718-11CF-893D-00A0C9054228}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.4768",
+    "checksum": "c6cb9742467aebbd8f79affa1173bf4aad604fd3e9761a8ed36571109114c9c4",
+    "filesize": 175616
+  },
+  {
+    "filename": "SDIAGENG.DLL",
+    "type_lib": "{{4b21f542-0eb5-4205-a12b-59bf2f2555fe}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "50d74cb52aee4b82457dc381e4499d420059dbc3d328ee83ce563e5f05591fbb",
+    "filesize": 222208
+  },
+  {
+    "filename": "SELECTPAGERANGE.OCX",
+    "type_lib": "{{00460180-9E5E-11D5-B7C8-B8269041DD57}}\\9.0\\0\\win32\\",
+    "version": "23.1.20064.0",
+    "checksum": "3071f227b8276b32b2e1583e2cba2d095580fcdf29ce6f72d70ac4b69a5a1b8a",
+    "filesize": 176080
+  },
+  {
+    "filename": "SENDASLINKADDIN.DLL",
+    "type_lib": "{{29CB2089-8CE9-41A0-9F1E-FE0F88BC011F}}\\1.0\\0\\win32\\",
+    "version": "23.1.20064.0",
+    "checksum": "1caa80679850f07f513cf6696b742fd65e36582cf8b62a503bbd11d8fc2aba27",
+    "filesize": 272848
+  },
+  {
+    "filename": "SENS.DLL",
+    "type_lib": "{{D597DEED-5B9F-11D1-8DD2-00AA004ABD5E}}\\2.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "f257423d4153e0acf87185366c66d72f3ca85e24071951f97e888362df61c2cf",
+    "filesize": 98304
+  },
+  {
+    "filename": "SHELL32.DLL",
+    "type_lib": "{{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.6584 (WinBuild.160101.0800)",
+    "checksum": "0ae0c81938c2c8ab5177d7575f0b72bad7b7eed14437e64fd4346c06fac00f33",
+    "filesize": 6484720
+  },
+  {
+    "filename": "SHGINA.DLL",
+    "type_lib": "{{0A055C02-BABE-4480-BB7B-A8EC723CE9C0}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "c08fafbfe66b402e8c5fd33d871f7eb497271a135a471fd6c5ce74aabdf2f5b4",
+    "filesize": 57344
+  },
+  {
+    "filename": "SMARTBUTTON.OCX",
+    "type_lib": "{{E1C6DB9D-BD4A-4A61-A759-0CED75D034BF}}\\2b.0\\0\\win32\\",
+    "version": "2.00.0008",
+    "checksum": "71dd31fbdd29ce2761e984d8847fea2959e1023e4712ab7b9ffe7b7459c84a86",
+    "filesize": 98304
+  },
+  {
+    "filename": "SMARTSUBCLASS.DLL",
+    "type_lib": "{{F3AF98C4-9A9D-4FF2-8F14-A1BC87795E7B}}\\1.0\\0\\win32\\",
+    "version": "1.00.0006",
+    "checksum": "64c4668e004315b115d45945920a45604cfec0cb95fce4a5716d503ae017ed87",
+    "filesize": 24576
+  },
+  {
+    "filename": "SPPCOMAPI.DLL",
+    "type_lib": "{{B0C2A63F-AFF8-40E3-B42D-8A542DC909EC}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "b39932c9613a858605041abf72315a14cf6e46c44eca3d6c672e259f20b2203a",
+    "filesize": 328704
+  },
+  {
+    "filename": "SPPWMI.DLL",
+    "type_lib": "{{10E3A8C1-B46C-4B6C-B3EF-8E2F48D527D0}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.4484 (WinBuild.160101.0800)",
+    "checksum": "df96bd8d01a75bdea21247df04039b6ea3cd0ce00752f7e0ab5310259be2ffc6",
+    "filesize": 196608
+  },
+  {
+    "filename": "SQLPARSE.DLL",
+    "type_lib": "{{8F6C7660-E8A1-11D0-B9B3-2A92D0000000}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "025723f897d36b4bf39010c805acb1161b46dbd243c3b965a71082e7ef9a0d56",
+    "filesize": 118784
+  },
+  {
+    "filename": "SSTBARS2.OCX",
+    "type_lib": "{{1BE65FA0-CBF9-11D2-BBC7-00104B9E0792}}\\2.0\\0\\win32\\",
+    "version": "2.03.0005",
+    "checksum": "213353b65bb6094a40f5d21d540bfc1b0cc7ebd450911139e099b7d40cb49a21",
+    "filesize": 460232
+  },
+  {
+    "filename": "STCLIENT.DLL",
+    "type_lib": "{{92AD68AA-17E0-11D1-B230-00C04FB9473F}}\\1.0\\0\\win32\\",
+    "version": "2001.12.10941.16384 (WinBuild.160101.0800)",
+    "checksum": "d6c3820862b4f0f2a996438ee8bbc537787758e4a9d280d2ed77760a226b354b",
+    "filesize": 54784
+  },
+  {
+    "filename": "SYSFXUI.DLL",
+    "type_lib": "{{87D5F036-FAC3-4390-A1E8-DFA8A62C09E7}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "8d64fedf70f79283e752d441f7838a0ae1413c2f80f9dc0d5e357de4edd9fc52",
+    "filesize": 413696
+  },
+  {
+    "filename": "TABCTL32.OCX",
+    "type_lib": "{{BDC217C8-ED16-11CD-956C-0000C04E4C0A}}\\1.1\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "76f99cb0983a76385e55dca92577bb53de488aafdf0d6ffcbe03ec5fa85d15c5",
+    "filesize": 209192
+  },
+  {
+    "filename": "TAPI3.DLL",
+    "type_lib": "{{21D6D480-A88B-11D0-83DD-00AA003CCABD}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "8f65b6d5257349da002568a65d3985fe1e4c299e8b1022194b9e812848d892b3",
+    "filesize": 1003520
+  },
+  {
+    "filename": "TASKSCHD.DLL",
+    "type_lib": "{{e34cb9f1-c7f7-424c-be29-027dcc09363a}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "331ffa63d5fae28e01929c99081899cc2ced5308f45f4c2148ce5e07132b5819",
+    "filesize": 531016
+  },
+  {
+    "filename": "TDC.OCX",
+    "type_lib": "{{333C7BC1-460F-11D0-BC04-0080C7055A83}}\\1.1\\0\\win32\\",
+    "version": "11.00.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "64a9cf5ee5d9b253ae09664685a0329d895dc6dbbdb1a07a3dac5e53d2c53f5d",
+    "filesize": 75776
+  },
+  {
+    "filename": "TEMPMGR.DLL",
+    "type_lib": "{{1B9515DF-06D7-11D2-8D70-00A0C98B28E2}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "8c54ceabde904b32e1473627f85319af81ceb44a9ea9afd512d94d192d31f06d",
+    "filesize": 94208
+  },
+  {
+    "filename": "TERMMGR.DLL",
+    "type_lib": "{{28DCD85B-ACA4-11D0-A028-00AA00B605A4}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "96508270fba31b2561725a2e8d0e88489315a30bb9cdcc15ab280e3e242424aa",
+    "filesize": 442368
+  },
+  {
+    "filename": "TIPTSF.DLL",
+    "type_lib": "{{D7CA032C-B7D0-429E-9FD7-82241C356B4A}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "05d49364144d5612507e9e11512c61d5e1e104a6c6eae4fcd624a387589c238b",
+    "filesize": 515472
+  },
+  {
+    "filename": "TLBINF32.DLL",
+    "type_lib": "{{8B217740-717D-11CE-AB5B-D41203C10000}}\\1.0\\0\\win32\\",
+    "version": "1.10.8169",
+    "checksum": "28f0aaec39174dc6093661025bf106d879af0fa54fc2124164fdbcfe76c0298d",
+    "filesize": 153600
+  },
+  {
+    "filename": "TRANIMG2.OCX",
+    "type_lib": "{{50CBA22D-9024-11D1-AD8F-8E94A5273767}}\\8.7\\0\\win32\\",
+    "version": "2.09.0001",
+    "checksum": "52a31862cfebd0e10d78d6f327109b6870a1de81dd3204ac015c5fd45dbe94d4",
+    "filesize": 163328
+  },
+  {
+    "filename": "TSWORKSPACE.DLL",
+    "type_lib": "{{7071EC00-663B-4BC1-A1FA-B97F3B917C55}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "aac6871a4be3e315392045fb455175ce808ba6c2856a9d196e7321446d78d7e0",
+    "filesize": 955904
+  },
+  {
+    "filename": "TVRATINGS.DLL",
+    "type_lib": "{{C5C5C500-3ABC-11D6-B25B-00C04FA0C026}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "5f078f6873bb5a5613761d6eb5b0051af7ce5ced7e9b4efcf9adc4fef7cf1dc2",
+    "filesize": 77824
+  },
+  {
+    "filename": "UIAUTOMATIONCORE.DLL",
+    "type_lib": "{{944DE083-8FB8-45CF-BCB7-C477ACB2F897}}\\1.0\\0\\win32\\",
+    "version": "7.2.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "c19eb52d664a22543b2e1b4b1884291b473b086d7f82613e46a7e08ab3acc1cc",
+    "filesize": 3391488
+  },
+  {
+    "filename": "UML.DLL",
+    "type_lib": "{{03FC1DED-B3BD-11D1-B937-00C04FBBC221}}\\1.0\\0\\win32\\",
+    "version": "6.00.8161",
+    "checksum": "8efaba09d8c52a90d12555ef1d0d65eae393f657206b2067f0582d1fc1bb1cc0",
+    "filesize": 106496
+  },
+  {
+    "filename": "UPNP.DLL",
+    "type_lib": "{{DB3442A7-A2E9-4A59-9CB5-F5C1A5D901E5}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "95db385f38027deffa77988d00656c387ab1763fc88b692dedafd91938c37212",
+    "filesize": 357376
+  },
+  {
+    "filename": "USERCPL.DLL",
+    "type_lib": "{{D808BD12-DD1E-4cbc-8A3A-0A35010F078A}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "aadb7d504b3150b8da29d187c40bc0088a661f54941d85d6c0df4994f20aba95",
+    "filesize": 729088
+  },
+  {
+    "filename": "VB6IDEMOUSEWHEELADDIN.DLL",
+    "type_lib": "{{1B45A1FF-B7A8-4D8D-9221-427693E491B2}}\\1.0\\0\\win32\\",
+    "version": "1.00",
+    "checksum": "dd5d0f9db6b3c1fc565551298bb39517d30406933bb37c3297705dae923eec14",
+    "filesize": 36864
+  },
+  {
+    "filename": "VBALPROGBAR6.OCX",
+    "type_lib": "{{55473EAC-7715-4257-B5EF-6E14EBD6A5DD}}\\1.0\\0\\win32\\",
+    "version": "1.00.0006",
+    "checksum": "dd8cbb91f9a355e9f7511c47df404b8b53612ff65341e68eff555541cbd20c95",
+    "filesize": 65536
+  },
+  {
+    "filename": "VBOXPROXYSTUB-X86.DLL",
+    "type_lib": "{{20191216-1750-46F0-936E-BD127D5BC264}}\\1.3\\0\\win32\\",
+    "version": "6.1.36.152435",
+    "checksum": "0eeb8100737be41147a575b7e623c866ce5eeab88e766faa0279eb71156965df",
+    "filesize": 585544
+  },
+  {
+    "filename": "VCMAXB.OCX",
+    "type_lib": "{{A8F8E827-06DA-11D2-8D70-00A0C98B28E2}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "f38fb4ebe7425cbb038c4989bfd7510ac8e2566395345bc3386a876b70177d17",
+    "filesize": 74792
+  },
+  {
+    "filename": "VCMCAB.DLL",
+    "type_lib": "{{3FF69171-1582-11D1-9605-00600818410C}}\\1.0\\0\\win32\\",
+    "version": "6, 0, 8169, 0",
+    "checksum": "3b14da6691f7760b9db5a49d213cbf33298bb1c35fbeed8cbe05e099f773c93c",
+    "filesize": 109568
+  },
+  {
+    "filename": "VCMMGR.DLL",
+    "type_lib": "{{18BF4063-A8C4-11D1-AE5C-00600818410C}}\\7.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "46908e068a25290da3d2cf5465be5b7fc77d78c200f986a6c54720e42ed7f584",
+    "filesize": 2019328
+  },
+  {
+    "filename": "VCMPK.DLL",
+    "type_lib": "{{6A30AD80-10FD-11D1-9603-00600818410C}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "e17cb65b8b346ee1e8e011dc9d8c988bafd960ae192b5c87bc41e1cf58cbc0be",
+    "filesize": 216796
+  },
+  {
+    "filename": "VCMUI.DLL",
+    "type_lib": "{{AEB7F2FA-06DA-11D2-8D70-00A0C98B28E2}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "0e451d5eecd34ac1332b11905a293fbc508bc98db144d842d0edd515994e37cd",
+    "filesize": 200704
+  },
+  {
+    "filename": "VCMUTL.DLL",
+    "type_lib": "{{723AA6C1-3B50-11D1-9636-00600818410C}}\\1.0\\0\\win32\\",
+    "version": "6, 0, 8169, 0",
+    "checksum": "e0210b54acf6a85d71cd98a9c2c66e0429a4271226c1a34d54af30530a109c4c",
+    "filesize": 77824
+  },
+  {
+    "filename": "VCMVMB.OCX",
+    "type_lib": "{{1E9A88A4-2968-11D1-851D-00A0C911E8B0}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "73159bb21a6096a407f95b6170451b52cd8fa6dc7091cdc273cc3cbcf8f26311",
+    "filesize": 95264
+  },
+  {
+    "filename": "VCMVMH.DLL",
+    "type_lib": "{{6661B73C-9D9C-11D1-B931-00C04FBBC221}}\\1.2\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "72f08b8c00972a2dd3d3ea4363b15fc2f6146f650cc827fb5589750b17501bc1",
+    "filesize": 200704
+  },
+  {
+    "filename": "VI30AUT.DLL",
+    "type_lib": "{{BE92D980-EDB3-11D0-9B3F-00A0C91E29D8}}\\1.0\\0\\win32\\",
+    "version": "6.00.8146",
+    "checksum": "e70de65012a38c1362f6ee0796e8268dd00f1047197f270cc8381342b9596c67",
+    "filesize": 84225
+  },
+  {
+    "filename": "VI30WRP.DLL",
+    "type_lib": "{{B8812643-BDB3-11D0-B19E-00A0C91E29D8}}\\1.0\\0\\win32\\",
+    "version": "3.0.2.1105",
+    "checksum": "90a3d92dca13c9bbdaa37106a21998a5bde70a3c6459aa13b754f61ea2378b9f",
+    "filesize": 86528
+  },
+  {
+    "filename": "VIDISWS.DLL",
+    "type_lib": "{{164B10B0-B200-11D0-8C61-00A0C91E29D5}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "744a10d1886c5f02a4931ef9ff7e4f7c9c4d62f1e16462a04986bdd570675027",
+    "filesize": 574719
+  },
+  {
+    "filename": "VIDTC1.DLL",
+    "type_lib": "{{8CC35CC4-E98B-11D0-B218-00A0C92764F5}}\\1.0\\0\\win32\\",
+    "version": "6.00.8162",
+    "checksum": "2ac4073c40b1b8ea2efd9059ab51df6b550c2371d08e572c5db2869541688594",
+    "filesize": 198432
+  },
+  {
+    "filename": "VIDTC2.DLL",
+    "type_lib": "{{B1288555-CD97-11D0-9825-0000F8027CA0}}\\1.0\\0\\win32\\",
+    "version": "6.00.8162",
+    "checksum": "d80768bddbc0eb4145ea1285da5a6b279bd690c7da011dcdbd6adaa2f616c366",
+    "filesize": 420880
+  },
+  {
+    "filename": "VIDTC3.OCX",
+    "type_lib": "{{FBB87586-FFF5-11D1-991D-006097C99385}}\\1.0\\0\\win32\\",
+    "version": "6.00.8160",
+    "checksum": "516c0eff9291e24436efeedf3b78544693334f8c4baa074aff42b96ad7a821de",
+    "filesize": 566304
+  },
+  {
+    "filename": "VIDTLP.DLL",
+    "type_lib": "{{FFBC50F3-043C-11D1-911D-006097C99383}}\\1.0\\0\\win32\\",
+    "version": "6.00.8167",
+    "checksum": "49d636664b607e80b657a7ef3cb46d71460cd913caa66b5c7209b0882452a8d0",
+    "filesize": 180992
+  },
+  {
+    "filename": "VRFAUTO.DLL",
+    "type_lib": "{{DAB52BCB-6990-464A-AC61-F60C8EF60E24}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.4654 (WinBuild.160101.0800)",
+    "checksum": "4d47b13f59a4b77dfcde187e43726dcdd7340b46d88dfacca3ee84ec1a0bfe8d",
+    "filesize": 164224
+  },
+  {
+    "filename": "VSDPL.DLL",
+    "type_lib": "{{FD623E30-B839-11D0-AB23-00A0C90F2713}}\\1.0\\0\\win32\\",
+    "version": "6.00.8166",
+    "checksum": "632a0b8407494d851eae785ce5f50250ef0fa70aa7313d4b7f757cf50a250c83",
+    "filesize": 512272
+  },
+  {
+    "filename": "VSED.DLL",
+    "type_lib": "{{E4CB37F0-0FA0-11D1-B789-0000F81E081D}}\\1.0\\0\\win32\\",
+    "version": "6.00.8146",
+    "checksum": "11eeb643d34115389acf03db606fbb21636a82f1f02c277db5ff81ec3a4ffc07",
+    "filesize": 63228
+  },
+  {
+    "filename": "VSPERFCONTROL.DLL",
+    "type_lib": "{{290171DB-AAD0-4126-A027-E4EF4842C933}}\\2.0\\0\\win32\\",
+    "version": "17.0.36015.10 built by: d17.14",
+    "checksum": "2392efadba58eda13310bc4ff9c8a8f9821465c5f6f36d4de3a6653ea1337ecc",
+    "filesize": 282656
+  },
+  {
+    "filename": "VVIEWER.DLL",
+    "type_lib": "{{BA35B84E-A623-471B-8B09-6D72DD072F25}}\\1.6\\0\\win32\\",
+    "version": "16.0.19127.20154",
+    "checksum": "6639b9677c99db669517c2f850f3c48c04806df57863c68b1a6c66e5493ebd54",
+    "filesize": 15029088
+  },
+  {
+    "filename": "WAASMEDICPS.DLL",
+    "type_lib": "{{3ff1aab8-f3d8-11d4-825d-00104b3646c0}}\\1.0\\0\\win32\\",
+    "version": "File not found",
+    "checksum": "File not found",
+    "filesize": 0
+  },
+  {
+    "filename": "WBCLSDSR.OCX",
+    "type_lib": "{{17016CEB-E118-11D0-94B8-00A0C91110ED}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "9ac786ac7d67a160c22850c5a71617e7b970adf6276b99b56f2e4655489a34ba",
+    "filesize": 317200
+  },
+  {
+    "filename": "WBEMCNTL.DLL",
+    "type_lib": "{{5C65924B-E236-11D2-8899-00104B2AFB46}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "ecf4f8826b02a5c53d60ee4d42f12af960f568d34c88d81609057c211d1ba8a2",
+    "filesize": 307712
+  },
+  {
+    "filename": "WEBPOST.DLL",
+    "type_lib": "{{336C8C70-A62B-11D0-AD5F-00AA00A219AA}}\\1.0\\0\\win32\\",
+    "version": "6.1.33.0",
+    "checksum": "9030d7171dcd15341f8edcbb749ce36c100baf8b4a6b677658776f624cc72420",
+    "filesize": 145360
+  },
+  {
+    "filename": "WIAAUT.DLL",
+    "type_lib": "{{94A0E92D-43C0-494E-AC29-FD45948A5221}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "4509c0f66ebc90f00dc066d7a8df8a2585e1da791bdf9dff5a00497105ee9ea7",
+    "filesize": 823296
+  },
+  {
+    "filename": "WIASCANPROFILES.DLL",
+    "type_lib": "{{77A6BD8A-AB60-49FF-853C-B6EE7BABAF96}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "146e92c1c30f68c16382e1494af4abd4d472e621cdea32e70df9b92e603a5de8",
+    "filesize": 92672
+  },
+  {
+    "filename": "WIN32_TPM.DLL",
+    "type_lib": "{{61E207A5-827C-42E9-ADFA-165C6A745EE4}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "3ab1c442bd677864bb020b11fdf7c96eb3d3378dd1a0fa7d426d755f6aecb44b",
+    "filesize": 49664
+  },
+  {
+    "filename": "WINDOWSLIVELOGIN.DLL",
+    "type_lib": "{{FD609BF1-0E01-403F-8F20-EA238F5CDCC3}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.3912 (WinBuild.160101.0800)",
+    "checksum": "e73846b86403159cc92e9e11578a0f25ed272d8ef324115e1de3a31ac88b6e8e",
+    "filesize": 227840
+  },
+  {
+    "filename": "WINHTTPCOM.DLL",
+    "type_lib": "{{662901FC-6951-4854-9EB2-D9A2570F2B2E}}\\5.1\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "8aa185c093349d3d0e0feba723cfdd6fcd92ff92350c9f0508137507157043c0",
+    "filesize": 131072
+  },
+  {
+    "filename": "WINSATAPI.DLL",
+    "type_lib": "{{15AE3A36-E53B-454d-A816-A7C61CBAB8A4}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "5510d4d40142fc332747ab3490a1484c784177fa98060f45943b879e285fae68",
+    "filesize": 417792
+  },
+  {
+    "filename": "WISP.DLL",
+    "type_lib": "{{773F1B9A-35B9-4E95-83A0-A210F2DE3B37}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "9dc7bdc3373d48f49aeeeae60e62de3cc790a559bee530df3582f093786184de",
+    "filesize": 299008
+  },
+  {
+    "filename": "WIZMAN.DLL",
+    "type_lib": "{{F8E19BF9-06D6-11D2-8D70-00A0C98B28E2}}\\1.0\\0\\win32\\",
+    "version": "6.00.8169",
+    "checksum": "095920fabb6dfbccac862240eae934dce6d0cb7f20770f2939ab4c067cbf1e08",
+    "filesize": 118784
+  },
+  {
+    "filename": "WKSPBROKERAX.DLL",
+    "type_lib": "{{A47EDEDD-2921-4E5A-9B91-13C953EC7FE3}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "c85853d2d59f06d40e4b24496b108d56e4dea98b5460c816c21a72779da2ff5a",
+    "filesize": 155648
+  },
+  {
+    "filename": "WLANPREF.DLL",
+    "type_lib": "{{157702D8-B1C1-40B8-8B46-AF2B40022085}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "beb2168fdb74201be4733e8cb6aaa6968d294ca56cf3b6a5352445b9fc9876ff",
+    "filesize": 778240
+  },
+  {
+    "filename": "WLANUI.DLL",
+    "type_lib": "{{CB72A544-F75E-42CB-932E-EB06A7063A66}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "dacb9912e56077c25dae2b339e0be5437ee1dc6f3686b3c427c4e4eab5c50da8",
+    "filesize": 417792
+  },
+  {
+    "filename": "WLIDCLI.DLL",
+    "type_lib": "{{121932AD-6881-46E4-BCA8-9155A87E77F9}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.3912 (WinBuild.160101.0800)",
+    "checksum": "807ed1c5521cbc86c885a183103e205d8cc758658430b291e03b8c998807d08c",
+    "filesize": 563712
+  },
+  {
+    "filename": "WMNETMGR.DLL",
+    "type_lib": "{{CD12A3C0-9C42-11D2-BEED-0060082F2054}}\\1.0\\0\\win32\\",
+    "version": "12.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "8e97e6151fa0929ef5fd0b2cbe16e6cac0eebeba4ed127f0e6f0cb8fbe770598",
+    "filesize": 1282048
+  },
+  {
+    "filename": "WMP.DLL",
+    "type_lib": "{{6BF52A50-394A-11D3-B153-00C04F79FAA6}}\\1.0\\0\\win32\\",
+    "version": "12.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "8cea7206424e073fb13299cdcac9cd413ba70179d0fdb61fcf17210ade63ad3b",
+    "filesize": 10612736
+  },
+  {
+    "filename": "WMPDXM.DLL",
+    "type_lib": "{{73F0DD5C-D071-46B6-A8BF-897C84EAAC49}}\\1.0\\0\\win32\\",
+    "version": "12.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "22e3b0fff8066219a026e62ca2ba7cf47f01b0ed251dd9188668881153032bcc",
+    "filesize": 249856
+  },
+  {
+    "filename": "WMPMEDIASHARING.DLL",
+    "type_lib": "{{C21E9CE5-B317-463B-A1B1-B5E36EED59D0}}\\1.0\\0\\win32\\",
+    "version": "12.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "fd30d089a24005b148a7ad74b51e65a1daa736ebe756dbac88dd820f9b1a7ce5",
+    "filesize": 147456
+  },
+  {
+    "filename": "WMPNSSCI.DLL",
+    "type_lib": "{{453E9E02-8BA4-474C-BFA0-37727E44F6AE}}\\1.0\\0\\win32\\",
+    "version": "12.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "a40393909cd3ee9527a1120717bb8c9b2a2ffe0d6785090793029cea23d67dd2",
+    "filesize": 503808
+  },
+  {
+    "filename": "WMPSHELL.DLL",
+    "type_lib": "{{5CB42160-CD7C-4806-9367-1C4A65153F4A}}\\1.0\\0\\win32\\",
+    "version": "12.0.26100.1 (WinBuild.160101.0800)",
+    "checksum": "7ab61c3bee3f3ca235138feec5ff9614f9bc92b6d53ad7a880d9e5486fed7a93",
+    "filesize": 163840
+  },
+  {
+    "filename": "WNDMANAGER.OCX",
+    "type_lib": "{{A2A6AF47-81B2-43DA-96E4-09FC81887A1E}}\\1.0\\0\\win32\\",
+    "version": "File not found",
+    "checksum": "File not found",
+    "filesize": 0
+  },
+  {
+    "filename": "WODTELNETDLX64.OCX",
+    "type_lib": "{{8DC3BA14-5321-48E7-A798-CAA6EC694A71}}\\1.0\\0\\win32\\",
+    "version": "2, 5, 9, 186",
+    "checksum": "1e80c5251e9f3a0cc47f1a34f95252603e50b3b6702cdef916c6cf07b2f858c3",
+    "filesize": 2437952
+  },
+  {
+    "filename": "WPDSP.DLL",
+    "type_lib": "{{B9B6535E-7706-490C-84A5-F40E125AD4B5}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "317f7f89ac8930f67e3c0affadd3322cb6e6538c06d8369a9f9174b14e07e7de",
+    "filesize": 335872
+  },
+  {
+    "filename": "WPWIZDLL.DLL",
+    "type_lib": "{{96E31631-59F3-11D0-AD1F-00AA00A219AA}}\\1.0\\0\\win32\\",
+    "version": "6.1.33.0",
+    "checksum": "07f3fb0a3eda8aa7927c07b67c6fcaa1a4d506ce9a0c967e9798ce01ad6359ed",
+    "filesize": 111552
+  },
+  {
+    "filename": "WSCAPI.DLL",
+    "type_lib": "{{B52A4496-7753-4F74-BE64-C2072E308122}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.3624 (WinBuild.160101.0800)",
+    "checksum": "10f1bd6052fdaca51929b6022ad4b6bd5384d99e02f4bd2b5bee25c6e501f914",
+    "filesize": 227848
+  },
+  {
+    "filename": "WSHCON.DLL",
+    "type_lib": "{{563DC060-B09A-11D2-A24D-00104BD35090}}\\1.0\\0\\win32\\",
+    "version": "5.812.10240.16384",
+    "checksum": "09739ce550ac429bcfff4063c7f2a8e7f29bb8df9c6d9f9987158f14851454e8",
+    "filesize": 22016
+  },
+  {
+    "filename": "WSHEXT.DLL",
+    "type_lib": "{{95CEF0E5-A4ED-4703-B501-AE70A153697A}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.4768",
+    "checksum": "29dd0720383a70a3ceae4bf0abe566a63153b32d023633e06859ad2c57d76c04",
+    "filesize": 67584
+  },
+  {
+    "filename": "WSHOM.OCX",
+    "type_lib": "{{F935DC20-1CF0-11D0-ADB9-00C04FD58A0B}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.4768",
+    "checksum": "78fae2cd84ad0b2ce2b9e35456dd02089802f6f75ff0b8ed6db0ab1734922b9f",
+    "filesize": 110592
+  },
+  {
+    "filename": "WSMAUTO.DLL",
+    "type_lib": "{{F010BE25-296D-4036-980F-5A0669A17577}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "b474da74132bcc0bd57153453d02e62cc42884024042bcd0b4c8df50d268aa6b",
+    "filesize": 147968
+  },
+  {
+    "filename": "WUAPI.DLL",
+    "type_lib": "{{B596CC9F-56E5-419E-A622-E01BB457431E}}\\2.0\\0\\win32\\",
+    "version": "1450.2508.4042.0",
+    "checksum": "d94fe1a7f31c6bf84bf383a6cc49fbd52a89ac9fb18d22051ee41ba27bae0a61",
+    "filesize": 203664
+  },
+  {
+    "filename": "WWANAPI.DLL",
+    "type_lib": "{{DCBBBAB6-0001-4BBB-AAEE-338E368AF6FA}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.5074 (WinBuild.160101.0800)",
+    "checksum": "d91af66e7d58b0fb1a2b357d0accff53ac76076fd97bfba5f00f17a3276d99ec",
+    "filesize": 509688
+  },
+  {
+    "filename": "XWIZARDS.DLL",
+    "type_lib": "{{777BA810-2498-4875-933A-3067DE883070}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.2308 (WinBuild.160101.0800)",
+    "checksum": "1c581422cdf6e5c6006fdc3a6986072f18fe86f03a2ec47fab4e046306a51dd8",
+    "filesize": 458752
+  },
+  {
+    "filename": "XWREG.DLL",
+    "type_lib": "{{777BA8F1-2498-4875-933A-3067DE883070}}\\1.0\\0\\win32\\",
+    "version": "10.0.26100.1882 (WinBuild.160101.0800)",
+    "checksum": "78bc03ce0c1207f9e83fc49654880e331cfa1a5f08fe31592e6b1fc1d5f46c93",
+    "filesize": 151552
+  }
+]

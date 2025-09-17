@@ -66,8 +66,9 @@ namespace TypeLibExporter_NET8
             // Forzar primera posición correcta
             btnClose.Location = new Point(bottomPanel.ClientSize.Width - btnClose.Width - 16, 12);
 
-            Controls.Add(bottomPanel);
+            // Importante: agregar primero el Fill y DESPUÉS el Bottom
             Controls.Add(tabs);
+            Controls.Add(bottomPanel);
 
             // Crear dos formularios ListarJson embebidos (uno por pestaña)
             var jsonOptions = new JsonSerializerOptions
@@ -87,6 +88,7 @@ namespace TypeLibExporter_NET8
             };
             tabTypelibs.Controls.Add(formTypeLibs);
             formTypeLibs.Show();
+            OcultarBotonCerrarHijo(formTypeLibs);
 
             var formClsids = new ListarJson(clsidsJson, fileName + " (CLSIDs)")
             {
@@ -96,6 +98,27 @@ namespace TypeLibExporter_NET8
             };
             tabClsids.Controls.Add(formClsids);
             formClsids.Show();
+            OcultarBotonCerrarHijo(formClsids);
+        }
+
+        private void OcultarBotonCerrarHijo(Form hijo)
+        {
+            try
+            {
+                // Intentar por nombre estándar
+                var btn = hijo.Controls.Find("btnClose", true).FirstOrDefault() as Button;
+                if (btn != null)
+                {
+                    btn.Visible = false;
+                    return;
+                }
+                // Fallback: buscar por texto "Cerrar"
+                var btnTexto = hijo.Controls
+                    .OfType<Button>()
+                    .FirstOrDefault(b => (b.Text ?? string.Empty).Trim().EndsWith("Cerrar", StringComparison.OrdinalIgnoreCase));
+                if (btnTexto != null) btnTexto.Visible = false;
+            }
+            catch { }
         }
 
         private void InitializeComponent()
