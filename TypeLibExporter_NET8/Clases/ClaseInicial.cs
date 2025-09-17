@@ -23,9 +23,11 @@ namespace TypeLibExporter_NET8.Clases
             public const string CopiadoOk = "📋 JSON copiado al portapapeles exitosamente!";
             public const string CopiadoError = "❌ Error al copiar al portapapeles:";
             public const string ErrorGuardarArchivo = "❌ Error al guardar archivo:";
+            public const string ErrorVisualizacion = "Error al actualizar la visualización:";
             public const string JsonInvalidoTitulo = "Archivo JSON Inválido";
             public const string JsonInvalidoMensaje = "❌ El archivo seleccionado no contiene JSON válido.\n\nPor favor, selecciona un archivo JSON válido.";
             public const string SeleccionarJsonTitulo = "Seleccionar archivo JSON para visualizar";
+            public const string EliminadoOk = "✅ Elemento eliminado exitosamente!";
         }
         // Configuración global
         public static class Config

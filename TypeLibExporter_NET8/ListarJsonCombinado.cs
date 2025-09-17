@@ -1,4 +1,5 @@
 using System.Text.Json;
+using System.Drawing;
 
 namespace TypeLibExporter_NET8
 {
@@ -51,11 +52,19 @@ namespace TypeLibExporter_NET8
                 ForeColor = Color.White,
                 FlatStyle = FlatStyle.Flat,
                 Font = new Font("Segoe UI", 9F, FontStyle.Bold),
-                Location = new Point(this.ClientSize.Width - 140, 12)
+                Location = new Point(0, 12) // se ajustará en Resize
             };
             btnClose.FlatAppearance.BorderSize = 0;
             btnClose.Click += (s, e) => this.Close();
             bottomPanel.Controls.Add(btnClose);
+
+            // Reposicionar en función del tamaño del panel (anclaje a la derecha)
+            bottomPanel.Resize += (s, e) =>
+            {
+                btnClose.Location = new Point(bottomPanel.ClientSize.Width - btnClose.Width - 16, 12);
+            };
+            // Forzar primera posición correcta
+            btnClose.Location = new Point(bottomPanel.ClientSize.Width - btnClose.Width - 16, 12);
 
             Controls.Add(bottomPanel);
             Controls.Add(tabs);

@@ -44,7 +44,7 @@ namespace TypeLibExporter_NET8
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Error al actualizar la visualización:\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"{ClaseInicial.Textos.ErrorVisualizacion}\n{ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
