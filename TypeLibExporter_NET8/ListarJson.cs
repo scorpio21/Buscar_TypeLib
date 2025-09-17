@@ -33,19 +33,13 @@ namespace TypeLibExporter_NET8
             // Etiqueta de búsqueda sin ícono (como al principio)
             lblSearch.Image = null;
             lblSearch.Text = "🔍 Buscar:";
-            // Cursor personalizado en botones (usa puntero.cur si existe; fallback: mano)
-            try
-            {
-                var custom = ClaseInicial.CargarCursor("puntero.cur");
-                var useCursor = (Cursor?)custom ?? Cursors.Hand;
-                btnCopy.Cursor = useCursor;
-                btnSave.Cursor = useCursor;
-                btnAddNew.Cursor = useCursor;
-                btnClose.Cursor = useCursor;
-                btnEdit.Cursor = useCursor;
-                btnDelete.Cursor = useCursor;
-            }
-            catch { }
+            // Cursores direccionales en botones (left/right)
+            try { ClaseInicial.Cursores.Aplicar(btnCopy); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(btnSave); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(btnAddNew); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(btnClose); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(btnEdit); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(btnDelete); } catch { }
             LoadJsonContent();
         }
 

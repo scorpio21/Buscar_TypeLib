@@ -52,21 +52,8 @@ namespace TypeLibExporter_NET8
             try { ClaseInicial.Cursores.Aplicar(btnExportClsIds); } catch { }
             try { ClaseInicial.Cursores.Aplicar(btnExportCombined); } catch { }
 
-            // Cursores direccionales en todos los elementos del menú
-            try { ApplyDirectionalCursorToMenuItems(menuStrip.Items); } catch { }
         }
 
-        private void ApplyDirectionalCursorToMenuItems(ToolStripItemCollection items)
-        {
-            foreach (ToolStripItem item in items)
-            {
-                try { ClaseInicial.Cursores.Aplicar(item); } catch { }
-                if (item is ToolStripMenuItem mi && mi.DropDownItems.Count > 0)
-                {
-                    ApplyDirectionalCursorToMenuItems(mi.DropDownItems);
-                }
-            }
-        }
 
         #region File Extension Filtering
 
