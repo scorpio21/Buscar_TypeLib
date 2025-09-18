@@ -41,6 +41,22 @@ namespace TypeLibExporter_NET8
             try { ClaseInicial.Cursores.Aplicar(btnEdit); } catch { }
             try { ClaseInicial.Cursores.Aplicar(btnDelete); } catch { }
             try { ClaseInicial.Cursores.Aplicar(btnClearSearch); } catch { }
+
+            // Estilos UI: divisor y sombras + botones redondeados
+            try
+            {
+                EstilosUI.AplicarDivisorInferior(panelTop);
+                EstilosUI.AplicarSombraInterna(panelList);
+
+                EstilosUI.AplicarBotonRedondeado(btnEdit, 8);
+                EstilosUI.AplicarBotonRedondeado(btnDelete, 8);
+                EstilosUI.AplicarBotonRedondeado(btnCopy, 8);
+                EstilosUI.AplicarBotonRedondeado(btnSave, 8);
+                EstilosUI.AplicarBotonRedondeado(btnAddNew, 8);
+                EstilosUI.AplicarBotonRedondeado(btnClose, 8);
+                EstilosUI.AplicarBotonRedondeado(btnClearSearch, 6);
+            }
+            catch { }
             try { ClaseInicial.Cursores.Aplicar(lblSearch); } catch { }
             LoadJsonContent();
         }

@@ -61,6 +61,21 @@ namespace TypeLibExporter_NET8
                 panelMain.Resize += (s, e) => AjustarAlturaLista();
             }
             catch { }
+
+            // Estilos UI: divisor en header, sombras en paneles y botones redondeados
+            try
+            {
+                EstilosUI.AplicarDivisorInferior(panelHeader);
+                EstilosUI.AplicarSombraInterna(panelMain);
+                EstilosUI.AplicarSombraInterna(panelFooter);
+
+                EstilosUI.AplicarBotonRedondeado(btnSelectLocation, 8);
+                EstilosUI.AplicarBotonRedondeado(btnExportTypeLibs, 10);
+                EstilosUI.AplicarBotonRedondeado(btnExportVB6, 10);
+                EstilosUI.AplicarBotonRedondeado(btnExportClsIds, 10);
+                EstilosUI.AplicarBotonRedondeado(btnExportCombined, 10);
+            }
+            catch { }
         }
 
         private void AjustarAlturaLista()
