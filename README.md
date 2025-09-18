@@ -105,15 +105,6 @@ dotnet run --project TypeLibExporter_NET8/TypeLibExporter_NET8.csproj
 - Hacer commits frecuentes con mensajes claros (en español).
 - No subir credenciales, datos sensibles ni exportaciones de usuario sin consentimiento.
 
-## Licencia
-
-Proyecto distribuido bajo la licencia **MIT**.
-
-- Autor: By scorpio
-- Repositorio: [github.com/scorpio21/Buscar_TypeLib](https://github.com/scorpio21/Buscar_TypeLib)
-
-Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
-
 ## Novedades v0.1.0Beta
 
 - UI más moderna:
@@ -130,3 +121,13 @@ Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
 - Textos de UI centralizados en `ClaseInicial.Textos`.
 
 Descargar release: consulta la pestaña Releases del repositorio y busca la etiqueta `v0.1.0Beta`.
+
+## Licencia
+
+Proyecto distribuido bajo la licencia **MIT**.
+
+- Autor: By scorpio
+- Repositorio: [github.com/scorpio21/Buscar_TypeLib](https://github.com/scorpio21/Buscar_TypeLib)
+
+Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
+
