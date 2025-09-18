@@ -55,6 +55,19 @@ namespace TypeLibExporter_NET8
                 EstilosUI.AplicarBotonRedondeado(btnAddNew, 8);
                 EstilosUI.AplicarBotonRedondeado(btnClose, 8);
                 EstilosUI.AplicarBotonRedondeado(btnClearSearch, 6);
+
+                // Centrado vertical consistente para textos con/ sin emoji
+                foreach (var b in new[] { btnCopy, btnSave, btnAddNew, btnClose, btnEdit, btnDelete })
+                {
+                    try
+                    {
+                        b.TextAlign = ContentAlignment.MiddleCenter;
+                        // pequeño padding superior para equilibrar baseline de emojis
+                        b.Padding = new Padding(0, 2, 0, 0);
+                        b.UseCompatibleTextRendering = true;
+                    }
+                    catch { }
+                }
             }
             catch { }
             try { ClaseInicial.Cursores.Aplicar(lblSearch); } catch { }
