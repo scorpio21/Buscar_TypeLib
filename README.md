@@ -130,4 +130,3 @@ Proyecto distribuido bajo la licencia **MIT**.
 - Repositorio: [github.com/scorpio21/Buscar_TypeLib](https://github.com/scorpio21/Buscar_TypeLib)
 
 Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
-
