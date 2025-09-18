@@ -40,6 +40,8 @@ namespace TypeLibExporter_NET8
             try { ClaseInicial.Cursores.Aplicar(btnClose); } catch { }
             try { ClaseInicial.Cursores.Aplicar(btnEdit); } catch { }
             try { ClaseInicial.Cursores.Aplicar(btnDelete); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(btnClearSearch); } catch { }
+            try { ClaseInicial.Cursores.Aplicar(lblSearch); } catch { }
             LoadJsonContent();
         }
 

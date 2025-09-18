@@ -52,6 +52,25 @@ namespace TypeLibExporter_NET8
             try { ClaseInicial.Cursores.Aplicar(btnExportClsIds); } catch { }
             try { ClaseInicial.Cursores.Aplicar(btnExportCombined); } catch { }
 
+            // Asegurar visibilidad y tamaño del lstResults
+            try
+            {
+                lstResults.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+                AjustarAlturaLista();
+                lstResults.BringToFront();
+                panelMain.Resize += (s, e) => AjustarAlturaLista();
+            }
+            catch { }
+        }
+
+        private void AjustarAlturaLista()
+        {
+            // Calcula una altura que encaje entre su posición superior y el borde inferior del panelMain
+            var paddingInferior = panelMain.Padding.Bottom;
+            var espacioDisponible = panelMain.ClientSize.Height - lstResults.Top - paddingInferior;
+            // Altura mínima visual agradable
+            if (espacioDisponible < 380) espacioDisponible = 380;
+            lstResults.Height = espacioDisponible;
         }
 
 

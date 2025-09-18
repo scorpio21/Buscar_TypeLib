@@ -1,4 +1,4 @@
-﻿namespace TypeLibExporter_NET8
+namespace TypeLibExporter_NET8
 {
     partial class Principal
     {
@@ -158,21 +158,23 @@
             panelMain.Margin = new Padding(4, 5, 4, 5);
             panelMain.Name = "panelMain";
             panelMain.Padding = new Padding(43, 50, 43, 50);
-            panelMain.Size = new Size(1429, 965);
+            panelMain.Size = new Size(1429, 832);
             panelMain.TabIndex = 2;
             // 
             // lstResults
             // 
+            lstResults.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             lstResults.BackColor = Color.White;
             lstResults.BorderStyle = BorderStyle.FixedSingle;
+            lstResults.Cursor = Cursors.Hand;
             lstResults.Font = new Font("Consolas", 9F);
             lstResults.ForeColor = Color.FromArgb(31, 41, 55);
             lstResults.ItemHeight = 22;
-            lstResults.Location = new Point(43, 450);
+            lstResults.Location = new Point(43, 366);
             lstResults.Margin = new Padding(4, 5, 4, 5);
             lstResults.Name = "lstResults";
             lstResults.ScrollAlwaysVisible = true;
-            lstResults.Size = new Size(1342, 398);
+            lstResults.Size = new Size(1342, 310);
             lstResults.TabIndex = 9;
             // 
             // lblResultsTitle
@@ -180,7 +182,7 @@
             lblResultsTitle.AutoSize = true;
             lblResultsTitle.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblResultsTitle.ForeColor = Color.FromArgb(31, 41, 55);
-            lblResultsTitle.Location = new Point(43, 400);
+            lblResultsTitle.Location = new Point(43, 318);
             lblResultsTitle.Margin = new Padding(4, 0, 4, 0);
             lblResultsTitle.Name = "lblResultsTitle";
             lblResultsTitle.Size = new Size(593, 32);
@@ -194,7 +196,7 @@
             btnExportCombined.FlatStyle = FlatStyle.Flat;
             btnExportCombined.Font = new Font("Segoe UI", 11F, FontStyle.Bold);
             btnExportCombined.ForeColor = Color.White;
-            btnExportCombined.Location = new Point(1071, 267);
+            btnExportCombined.Location = new Point(1071, 218);
             btnExportCombined.Margin = new Padding(4, 5, 4, 5);
             btnExportCombined.Name = "btnExportCombined";
             btnExportCombined.Size = new Size(314, 83);
@@ -210,7 +212,7 @@
             btnExportClsIds.FlatStyle = FlatStyle.Flat;
             btnExportClsIds.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             btnExportClsIds.ForeColor = Color.White;
-            btnExportClsIds.Location = new Point(729, 267);
+            btnExportClsIds.Location = new Point(729, 218);
             btnExportClsIds.Margin = new Padding(4, 5, 4, 5);
             btnExportClsIds.Name = "btnExportClsIds";
             btnExportClsIds.Size = new Size(329, 83);
@@ -227,7 +229,7 @@
             btnExportVB6.FlatStyle = FlatStyle.Flat;
             btnExportVB6.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             btnExportVB6.ForeColor = Color.White;
-            btnExportVB6.Location = new Point(386, 267);
+            btnExportVB6.Location = new Point(386, 218);
             btnExportVB6.Margin = new Padding(4, 5, 4, 5);
             btnExportVB6.Name = "btnExportVB6";
             btnExportVB6.Size = new Size(329, 83);
@@ -244,7 +246,7 @@
             btnExportTypeLibs.FlatStyle = FlatStyle.Flat;
             btnExportTypeLibs.Font = new Font("Segoe UI", 10F, FontStyle.Bold);
             btnExportTypeLibs.ForeColor = Color.White;
-            btnExportTypeLibs.Location = new Point(43, 267);
+            btnExportTypeLibs.Location = new Point(43, 218);
             btnExportTypeLibs.Margin = new Padding(4, 5, 4, 5);
             btnExportTypeLibs.Name = "btnExportTypeLibs";
             btnExportTypeLibs.Size = new Size(329, 83);
@@ -258,7 +260,7 @@
             lblExportTitle.AutoSize = true;
             lblExportTitle.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lblExportTitle.ForeColor = Color.FromArgb(31, 41, 55);
-            lblExportTitle.Location = new Point(43, 200);
+            lblExportTitle.Location = new Point(43, 151);
             lblExportTitle.Margin = new Padding(4, 0, 4, 0);
             lblExportTitle.Name = "lblExportTitle";
             lblExportTitle.Size = new Size(569, 32);
@@ -343,8 +345,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(1429, 1167);
-            Controls.Add(panelFooter);
             Controls.Add(panelMain);
+            Controls.Add(panelFooter);
             Controls.Add(panelHeader);
             Controls.Add(menuStrip);
             Font = new Font("Segoe UI", 9F);
