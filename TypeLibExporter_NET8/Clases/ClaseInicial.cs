@@ -29,6 +29,32 @@ namespace TypeLibExporter_NET8.Clases
             public const string JsonInvalidoMensaje = "❌ El archivo seleccionado no contiene JSON válido.\n\nPor favor, selecciona un archivo JSON válido.";
             public const string SeleccionarJsonTitulo = "Seleccionar archivo JSON para visualizar";
             public const string EliminadoOk = "✅ Elemento eliminado exitosamente!";
+
+            // Estados de exportación
+            public const string EstadoEscaneandoTypeLibs = "🔍 Escaneando TypeLibs en el registro...";
+            public const string EstadoProcesandoArchivos = "📊 Procesando información de archivos...";
+            public const string EstadoEscaneandoClsids = "🔍 Escaneando CLSIDs con archivos válidos...";
+            public const string EstadoProcesandoClsids = "📊 Procesando información de CLSIDs...";
+            public const string EstadoEscaneandoCombinado = "🔍 Escaneando TypeLibs y CLSIDs...";
+            public const string EstadoGenerandoCombinado = "📊 Generando archivo combinado...";
+
+            // Mensajes de error genéricos
+            public const string ErrorExportacionTitulo = "Error de Exportación";
+            public const string ErrorPrefijo = "⚠️ Error: ";
+
+            // Mensajes OK y estados finales
+            public const string ExportadoTypeLibsEstado = "✅ TypeLibs exportados: {0} librerías encontradas (solo DLL/OCX)";
+            public const string ExportadoClsidsEstado = "✅ CLSIDs exportados: {0} archivos válidos encontrados";
+            public const string ExportadoCombinadoEstado = "✅ Exportación combinada: {0} TypeLibs + {1} CLSIDs (filtrados)";
+
+            public const string ExportTypeLibsOkTitulo = "Exportación Completada";
+            public const string ExportTypeLibsOkCuerpo = "🎉 TypeLibs exportados exitosamente!\n\n📁 Archivo: {0}\n📊 Librerías procesadas: {1}\n🔧 Filtrado: Solo archivos .DLL y .OCX\n💡 Tip: Puedes cargar este JSON usando Archivo → Utilidades → Cargar JSON";
+
+            public const string ExportClsidsOkTitulo = "Exportación de CLSIDs Completada";
+            public const string ExportClsidsOkCuerpo = "🎉 CLSIDs exportados exitosamente!\n\n📁 Archivo: {0}\n📊 CLSIDs procesados: {1}\n🔧 Formato: Limpio y simplificado\n✨ Solo archivos .DLL y .OCX que existen en el sistema";
+
+            public const string ExportCombinadoOkTitulo = "Exportación Combinada Completada";
+            public const string ExportCombinadoOkCuerpo = "🎉 Componentes exportados exitosamente!\n\n📁 Archivo: {0}\n📚 TypeLibs: {1}\n🔧 CLSIDs: {2}\n💾 Total: {3}\n🔧 Filtrado: Solo archivos .DLL/.OCX válidos";
         }
         // Configuración global
         public static class Config

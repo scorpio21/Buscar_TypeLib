@@ -105,43 +105,9 @@ namespace TypeLibExporter_NET8
         #endregion
 
         #region TypeLib Scanning Methods WITH FILTERING
-
-        private List<LibraryInfo> BuscarEnRegistro()
-        {
-            // Delegar en el servicio centralizado
-            return RegistroScanner.BuscarEnRegistro();
-        }
-
-        private List<LibraryInfo> BuscarEnRegistroFiltrado(List<string> preferidos)
-        {
-            var todas = BuscarEnRegistro(); // Ya viene filtrado
-            var filtradas = new List<LibraryInfo>();
-
-            foreach (var pref in preferidos)
-            {
-                if (!IsValidComponentFile(pref)) continue;
-                var encontrado = todas.FirstOrDefault(r => r.filename.Equals(pref, StringComparison.OrdinalIgnoreCase));
-                filtradas.Add(encontrado ?? new LibraryInfo
-                {
-                    filename = pref,
-                    type_lib = "Not Found in Registry",
-                    version = "Not Found",
-                    checksum = "File not accessible or missing",
-                    filesize = 0
-                });
-            }
-            return filtradas;
-        }
-
         #endregion
 
         #region CLSID Scanning Methods - COMPLETAMENTE REESCRITO
-
-        private List<SimpleClsIdInfo> BuscarClsIdsEnRegistro()
-        {
-            return RegistroScanner.BuscarClsIdsEnRegistro();
-        }
-
         #endregion
     }
 

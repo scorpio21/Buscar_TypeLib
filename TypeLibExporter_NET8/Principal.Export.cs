@@ -21,7 +21,7 @@ namespace TypeLibExporter_NET8
                 btnExportClsIds.Enabled = false;
                 btnExportCombined.Enabled = false;
                 progressBar.Style = ProgressBarStyle.Marquee;
-                lblStatus.Text = "🔍 Escaneando TypeLibs en el registro...";
+                lblStatus.Text = ClaseInicial.Textos.EstadoEscaneandoTypeLibs;
                 lstResults.Items.Clear();
 
                 var libraries = await Task.Run(() =>
@@ -45,7 +45,7 @@ namespace TypeLibExporter_NET8
 
                 this.Invoke((MethodInvoker)delegate
                 {
-                    lblStatus.Text = "📊 Procesando información de archivos...";
+                    lblStatus.Text = ClaseInicial.Textos.EstadoProcesandoArchivos;
                     foreach (var lib in libraries)
                     {
                         string displayText = lib.filesize > 0 
@@ -69,22 +69,18 @@ namespace TypeLibExporter_NET8
 
                 SaveLocation();
 
-                lblStatus.Text = $"✅ TypeLibs exportados: {libraries.Count} librerías encontradas (solo DLL/OCX)";
+                lblStatus.Text = string.Format(ClaseInicial.Textos.ExportadoTypeLibsEstado, libraries.Count);
                 MessageBox.Show(
-                    $"🎉 TypeLibs exportados exitosamente!\n\n" +
-                    $"📁 Archivo: {fullPath}\n" +
-                    $"📊 Librerías procesadas: {libraries.Count}\n" +
-                    $"🔧 Filtrado: Solo archivos .DLL y .OCX\n" +
-                    $"💡 Tip: Puedes cargar este JSON usando Archivo → Utilidades → Cargar JSON",
-                    "Exportación Completada",
+                    string.Format(ClaseInicial.Textos.ExportTypeLibsOkCuerpo, fullPath, libraries.Count),
+                    ClaseInicial.Textos.ExportTypeLibsOkTitulo,
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information
                 );
             }
             catch (Exception ex)
             {
-                lblStatus.Text = "❌ Error durante la exportación";
-                MessageBox.Show($"⚠️ Error: {ex.Message}", "Error de Exportación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                lblStatus.Text = ClaseInicial.Textos.ErrorPrefijo + "durante la exportación";
+                MessageBox.Show(ClaseInicial.Textos.ErrorPrefijo + ex.Message, ClaseInicial.Textos.ErrorExportacionTitulo, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -106,14 +102,14 @@ namespace TypeLibExporter_NET8
                 btnExportClsIds.Enabled = false;
                 btnExportCombined.Enabled = false;
                 progressBar.Style = ProgressBarStyle.Marquee;
-                lblStatus.Text = "🔍 Escaneando CLSIDs con archivos válidos...";
+                lblStatus.Text = ClaseInicial.Textos.EstadoEscaneandoClsids;
                 lstResults.Items.Clear();
 
                 var clsids = await Task.Run(() => BuscarClsIdsEnRegistro());
 
                 this.Invoke((MethodInvoker)delegate
                 {
-                    lblStatus.Text = "📊 Procesando información de CLSIDs...";
+                    lblStatus.Text = ClaseInicial.Textos.EstadoProcesandoClsids;
                     foreach (var clsid in clsids)
                     {
                         string displayText = clsid.filesize > 0 
@@ -137,22 +133,18 @@ namespace TypeLibExporter_NET8
 
                 SaveLocation();
 
-                lblStatus.Text = $"✅ CLSIDs exportados: {clsids.Count} archivos válidos encontrados";
+                lblStatus.Text = string.Format(ClaseInicial.Textos.ExportadoClsidsEstado, clsids.Count);
                 MessageBox.Show(
-                    $"🎉 CLSIDs exportados exitosamente!\n\n" +
-                    $"📁 Archivo: {fullPath}\n" +
-                    $"📊 CLSIDs procesados: {clsids.Count}\n" +
-                    $"🔧 Formato: Limpio y simplificado\n" +
-                    $"✨ Solo archivos .DLL y .OCX que existen en el sistema",
-                    "Exportación de CLSIDs Completada",
+                    string.Format(ClaseInicial.Textos.ExportClsidsOkCuerpo, fullPath, clsids.Count),
+                    ClaseInicial.Textos.ExportClsidsOkTitulo,
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information
                 );
             }
             catch (Exception ex)
             {
-                lblStatus.Text = "❌ Error durante la exportación de CLSIDs";
-                MessageBox.Show($"⚠️ Error: {ex.Message}", "Error de Exportación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                lblStatus.Text = ClaseInicial.Textos.ErrorPrefijo + "durante la exportación de CLSIDs";
+                MessageBox.Show(ClaseInicial.Textos.ErrorPrefijo + ex.Message, ClaseInicial.Textos.ErrorExportacionTitulo, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
@@ -174,7 +166,7 @@ namespace TypeLibExporter_NET8
                 btnExportClsIds.Enabled = false;
                 btnExportCombined.Enabled = false;
                 progressBar.Style = ProgressBarStyle.Marquee;
-                lblStatus.Text = "🔍 Escaneando TypeLibs y CLSIDs...";
+                lblStatus.Text = ClaseInicial.Textos.EstadoEscaneandoCombinado;
                 lstResults.Items.Clear();
 
                 var (libraries, clsids) = await Task.Run(() =>
@@ -194,7 +186,7 @@ namespace TypeLibExporter_NET8
 
                 this.Invoke((MethodInvoker)delegate
                 {
-                    lblStatus.Text = "📊 Generando archivo combinado...";
+                    lblStatus.Text = ClaseInicial.Textos.EstadoGenerandoCombinado;
                     lstResults.Items.Add($"📚 TypeLibs encontradas: {libraries.Count}");
                     lstResults.Items.Add($"🔧 CLSIDs encontrados: {clsids.Count}");
                     lstResults.Items.Add($"⏰ Exportado: {combinedData.exported_at:yyyy-MM-dd HH:mm:ss}");
@@ -215,23 +207,18 @@ namespace TypeLibExporter_NET8
 
                 SaveLocation();
 
-                lblStatus.Text = $"✅ Exportación combinada: {libraries.Count} TypeLibs + {clsids.Count} CLSIDs (filtrados)";
+                lblStatus.Text = string.Format(ClaseInicial.Textos.ExportadoCombinadoEstado, libraries.Count, clsids.Count);
                 MessageBox.Show(
-                    $"🎉 Componentes exportados exitosamente!\n\n" +
-                    $"📁 Archivo: {fullPath}\n" +
-                    $"📚 TypeLibs: {libraries.Count}\n" +
-                    $"🔧 CLSIDs: {clsids.Count}\n" +
-                    $"💾 Total: {libraries.Count + clsids.Count}\n" +
-                    $"🔧 Filtrado: Solo archivos .DLL/.OCX válidos",
-                    "Exportación Combinada Completada",
+                    string.Format(ClaseInicial.Textos.ExportCombinadoOkCuerpo, fullPath, libraries.Count, clsids.Count, libraries.Count + clsids.Count),
+                    ClaseInicial.Textos.ExportCombinadoOkTitulo,
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information
                 );
             }
             catch (Exception ex)
             {
-                lblStatus.Text = "❌ Error durante la exportación combinada";
-                MessageBox.Show($"⚠️ Error: {ex.Message}", "Error de Exportación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                lblStatus.Text = ClaseInicial.Textos.ErrorPrefijo + "durante la exportación combinada";
+                MessageBox.Show(ClaseInicial.Textos.ErrorPrefijo + ex.Message, ClaseInicial.Textos.ErrorExportacionTitulo, MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             finally
             {
