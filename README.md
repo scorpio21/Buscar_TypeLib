@@ -107,3 +107,20 @@ Proyecto distribuido bajo la licencia **MIT**.
 - Repositorio: [github.com/scorpio21/Buscar_TypeLib](https://github.com/scorpio21/Buscar_TypeLib)
 
 Consulta el archivo [`LICENSE`](LICENSE) para más detalles.
+
+## Novedades v0.1.0Beta
+
+- UI más moderna:
+  - Botones con bordes redondeados, efectos hover/pressed y sombras sutiles en paneles.
+  - Divisor inferior en el encabezado para mejor separación visual.
+- Refactor de `Principal` a parciales:
+  - `Principal.Helpers.cs`, `Principal.Events.cs`, `Principal.Export.cs` para un código más mantenible.
+- Cursores direccionales personalizados en botones:
+  - Soporte para `puntero-left.cur` y `puntero-right.cur` (cambia según el movimiento).
+- Estabilidad al cerrar:
+  - Correcciones para evitar `ObjectDisposedException` en efectos de hover.
+- Layout más robusto:
+  - `lstResults` con altura mínima dinámica y anclajes.
+- Textos de UI centralizados en `ClaseInicial.Textos`.
+
+Descargar release: consulta la pestaña Releases del repositorio y busca la etiqueta `v0.1.0Beta`.
