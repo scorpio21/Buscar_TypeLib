@@ -2,6 +2,17 @@
 
 Todas las novedades relevantes de este proyecto se documentarán en este archivo.
 
+## [v1.0] - 2025-09-19
+
+### Estable
+
+- Consolidación de UI moderna con botones redondeados, hover/pressed y sombras sutiles en paneles.
+- Separación de responsabilidades en archivos parciales de `Principal` (Helpers, Events, Export, Registry).
+- Mensajes y estados de exportación centralizados en `ClaseInicial.Textos`.
+- Corrección de cierre (evita `ObjectDisposedException` en efectos de hover).
+- `lstResults` con anclajes y altura mínima dinámica para evitar solapamientos con el footer.
+- Documentación actualizada (README con Descargas y CHANGELOG formateado).
+
 ## [v0.1.0Beta] - 2025-09-18
 
 ### Cambios destacados

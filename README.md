@@ -25,6 +25,10 @@ Editor/visor JSON con buscador:
 
 ## Descargas
 
+- Versión estable v1.0 (Windows x64, self-contained, single-file):
+  - [TypeLibExporter_NET8_v1.0_win-x64.zip](https://github.com/scorpio21/Buscar_TypeLib/releases/download/v1.0/TypeLibExporter_NET8_v1.0_win-x64.zip)
+  - [Release v1.0](https://github.com/scorpio21/Buscar_TypeLib/releases/tag/v1.0)
+
 - Versión pre-release v0.1.0Beta (Windows x64, self-contained, single-file):
   - [TypeLibExporter_NET8_v0.1.0Beta_win-x64.zip](https://github.com/scorpio21/Buscar_TypeLib/releases/download/v0.1.0Beta/TypeLibExporter_NET8_v0.1.0Beta_win-x64.zip)
   - O visita la pestaña [Releases](https://github.com/scorpio21/Buscar_TypeLib/releases/tag/v0.1.0Beta)
