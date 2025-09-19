@@ -59,6 +59,25 @@ Editor/visor JSON con buscador:
   - `TypeLibExporter_NET8.csproj`: configuración del proyecto (.NET 8, WinForms, advertencias).
   - `bin/`, `obj/`: artefactos de compilación (ignorados por Git).
 
+## Ejemplos y tests
+
+- Los JSON de ejemplo están en `test/json/` y se usan para pruebas y demostraciones.
+- No son datos de producción.
+- Puedes abrirlos con el visor incorporado (`Archivo → Utilidades → Cargar JSON`).
+
+## Publicar releases
+
+Con gh CLI y el script incluido:
+
+```powershell
+# Prepara notas en release-notes-vX.Y.Z.md (si no existe, el script la crea)
+# Publica self-contained win-x64, crea/edita release y sube el ZIP
+./scripts/publish.ps1 -Version v1.0
+
+# Para pre-release
+./scripts/publish.ps1 -Version v1.1.0-beta -Prerelease
+```
+
 ## Compilación y ejecución
 
 Con Visual Studio:
